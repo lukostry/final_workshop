@@ -1,1 +1,1 @@
-# final_workshop
+#The final workshop - Coder's Lab training
