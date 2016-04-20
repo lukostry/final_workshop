@@ -7,19 +7,37 @@
         margin-bottom: 0.1em;
     }
     p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         color: #777777;
-        margin-bottom: 5em;
     }
     .person_image {
             border-radius: 50%;
             width: 6em;
             height: 6em;
             background-color: #cdcdcd;
-            margin: 0 auto 1em auto;
+            margin: 0 auto 0 auto;
         }
+    .main_quote {
+        margin-top: 5em;
+    }
     .quotation {
         color: #4b4b4b;
         text-align: center;
+        padding: 0.7em 0;
+        .author {
+            margin: 0 auto;
+            color: #777777;
+        }
+    }
+    .carousel_controls {
+        margin: 3em auto 2em auto;
+    }
+    .carousel_selector {
+        display: inline-block;
+        width: 0.7rem;
+        height: 0.7rem;
+        border: 1px solid #777777;
+        border-radius: 50%;
+        margin: 0.25em;
     }
 }
