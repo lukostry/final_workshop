@@ -1,0 +1,24 @@
+.intermediate {
+    background-image: url("../images/inter_layer.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 320px;
+    padding-top: 3em;
+    
+    .class_with_text {
+        font-size: 1rem;
+        .svg_wrapper {
+            width: 12.5%;
+        }
+        h1 {
+            font-size: 2em;
+            color: #ffffff;
+            padding: 1em 5em 0 5em;
+        }
+    }
+}

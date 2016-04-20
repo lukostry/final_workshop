@@ -1,0 +1,82 @@
+.our_team {
+    background-color: #ffffff;
+    height: 600px;
+    padding-top: 5.5em;
+    padding-bottom: 3em;
+    .controls_container {
+        margin: 4em auto 4em auto;
+        width: 25%;
+    }
+    .controls {
+        display: inline-block;
+        img {
+            width: 2.5em;
+        }
+    }
+    .members {
+        .person_image {
+            border-radius: 50%;
+            width: 8em;
+            height: 8em;
+            background-color: #cdcdcd;
+            margin: 0 auto;
+        }
+        .person_name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 1.25em 0 0.5em 0;
+        }
+        .person_position {
+            font-size: 1em;
+        }
+        .social_icons_container {
+            margin: 0.6em auto 0 auto;
+//            width: 50%;
+            .social_icon_wrapper {
+                display: inline-block;
+                width: 1.7em;
+                height: 1.7em;
+                margin: 0 0;
+                svg {
+                    width: 100%;
+                }
+                #google_icon {
+                    .cls-1 {
+                        fill: #dadada;
+                        fill-opacity: 0;
+                        stroke: #777;
+                        stroke-linejoin: round;
+                        stroke-width: 1px;
+                    }
+            
+                    .cls-2 {
+                        font-size: 16px;
+                        fill: #222;
+                        text-anchor: middle;
+                        font-family: TitilliumWeb;
+                        font-weight: 300;
+                    }
+                }
+                #facebook_icon {
+                    .cls-1 {
+                        fill: #dadada;
+                        fill-opacity: 0;
+                        stroke: #777;
+                        stroke-linejoin: round;
+                        stroke-width: 1px;
+                        fill-rule: evenodd;
+                     }
+            
+                    .cls-2 {
+                        font-size: 16px;
+                        fill: #222;
+                        text-anchor: middle;
+                        font-family: TitilliumWeb;
+                        font-weight: 300;
+                    }
+                }
+            }
+                        
+        }
+    }
+}

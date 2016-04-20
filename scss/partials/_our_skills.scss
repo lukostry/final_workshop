@@ -1,0 +1,54 @@
+.our_skills {
+    background-color: #ffffff;
+    padding: 1em 0 5em 0;
+    .skills_header {
+        margin-bottom: 6em;
+    }
+    .skills_set {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.2rem;
+//        display: inline-block;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    %skills_all {
+         &:before, &:after {
+            content: " ";
+            display: table;
+            clear: both;
+        }
+        text-align: left;
+        .area {
+//            margin: 0 4.5em 0 0;
+            float: left;
+        }
+        .percentage {
+            font-size: 1.1em;
+            color: #777777;
+//            margin: 0 0 0 4.5em;
+            float: right;
+            font-weight: normal;
+        }
+    }
+    .skills_left {
+        @extend %skills_all;
+        padding: 1em 0 0 5em;
+        margin-right: 2em;
+    }
+    .skills_right {
+        @extend %skills_all;
+        padding: 1em 5em 0 0;
+        margin-left: 1em;
+    }
+    .main_bell {
+        margin: 2.2em 0 1.5em 0;
+        height: 0.75rem;
+        background-color: #f0f0f0;
+        .progress_bell {
+            background-color: #9f449b;
+            height: 100%;
+            width: 90%;
+        }
+    }
+    
+}

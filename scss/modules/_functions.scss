@@ -1,0 +1,4 @@
+@function setColumnWidth($number) {
+    //this function will return width of a column
+    @return $baseColWidth * $number;
+}

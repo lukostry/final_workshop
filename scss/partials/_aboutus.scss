@@ -1,0 +1,34 @@
+.about {
+    background-color: #ffffff;
+    padding: 3em 0 4.5em 0;
+    h2 {
+        margin: 1.2em 0;
+        &:before {
+            content: " ";
+            width: 1em;
+            height: 1em;
+            border-bottom: 10px solid #c186be;
+            border-left: 10px solid #c186be;
+        }
+        &:after {
+            
+        }
+    }
+    img {
+        width: 100%;
+    }
+    p {
+        line-height: 1.5em;
+        text-align: left;
+        margin: 1.5em 0 6.8em 0;
+    }
+    a {
+        display: block;
+        background-color: #9f449b;
+        font-size: 1.25rem;
+        padding: 0.7em 1.5em;
+//        width: 50%;
+        text-decoration: none;
+        color: #ffffff;
+    }
+}

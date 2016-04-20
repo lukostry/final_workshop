@@ -1,0 +1,25 @@
+.quotes {
+    background-color: #eeeeee;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 3em;
+    h1 {
+        font-size: 3.2rem;
+        margin-bottom: 0.1em;
+    }
+    p {
+        font-size: 0.8rem;
+        color: #777777;
+        margin-bottom: 5em;
+    }
+    .person_image {
+            border-radius: 50%;
+            width: 6em;
+            height: 6em;
+            background-color: #cdcdcd;
+            margin: 0 auto 1em auto;
+        }
+    .quotation {
+        color: #4b4b4b;
+        text-align: center;
+    }
+}
