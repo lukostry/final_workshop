@@ -1,0 +1,24 @@
+@mixin inputPlaceholder($color) {
+    ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color:  $color;
+        font-size: 1.1em;
+        font-family: 'latolight', Arial, sans-serif;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color: $color;
+       opacity:  1;
+       font-size: 1.1em;
+       font-family: 'latolight', Arial, sans-serif;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color: $color;
+       opacity:  1;
+       font-size: 1.1em; 
+       font-family: 'latolight', Arial, sans-serif;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+       color: $color;
+       font-size: 1.1em;
+       font-family: 'latolight', Arial, sans-serif;
+    }
+}

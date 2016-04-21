@@ -1,0 +1,56 @@
+.contact {
+    background-color: #ffffff;
+    .contact_header {
+        margin-bottom: 4em;
+        font-family: 'existencelight', sans-serif;
+    }
+    .form_block_element {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.1em;
+        width: 95%;
+        height: 2.8em;
+        margin: 0.4em 0 0.4em 14px;
+        border: 0.8px solid #777777;
+        padding-left: 1em;
+        @include inputPlaceholder(#c9c9c9);
+       
+    }
+    .message {
+        height: 9em;
+        padding-top: 0.8em;
+    }
+    .submit {
+        font-family: 'latolight', Arial, sans-serif;
+        background-color: #9f449b;
+        font-size: 1.1rem;
+        display: block;
+        padding: 0.7em 0;
+        margin: 0.4em 0 0.4em 15px;
+        width: 10em;
+        text-decoration: none;
+        color: #ffffff;
+        border: none;
+        border-radius: 0.4em;
+    }
+    .company_details {
+        padding-left: 0.2em;
+        text-align: left;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    .company_description {
+        margin-top: 0.4em;
+        margin-bottom: 0.8em;
+        color: #4b4b4b;
+        line-height: 1.2em;    
+    }
+    .company_address {
+        font-weight: bold;
+        margin: 1.5em 0;
+        line-height: 1.2em;
+    }
+    .company_telephone {
+        font-weight: bold;
+        padding: 0.2em 0;
+    }
+}

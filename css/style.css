@@ -757,4 +757,173 @@ nav .menu_top li:first-child {
   margin: 0.25em;
 }
 
+/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+.portfolio {
+  background-color: #ffffff;
+  padding-top: 3em;
+}
+
+/* line 4, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+.portfolio .portfolio_header {
+  padding-bottom: 3em;
+}
+
+/* line 7, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+.portfolio .buttons_group {
+  padding-bottom: 1.7em;
+}
+
+/* line 9, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+.portfolio .buttons_group a {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 0.5em 1.2em;
+  margin: 0 0.3em;
+  border: 0.8px solid #000000;
+  border-radius: 0.5em;
+  color: #222222;
+}
+
+/* line 24, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+.portfolio .thumbnails img {
+  width: 100%;
+}
+
+/* line 27, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+.portfolio .thumbnails .caption {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0.1em auto 0.7em auto;
+}
+
+/* line 30, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+.portfolio .thumbnails .caption .categories {
+  font-size: 0.8em;
+  color: #777777;
+}
+
+/* line 36, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+.portfolio .button_big {
+  display: block;
+  background-color: #9f449b;
+  font-size: 1.25rem;
+  padding: 0.7em 0;
+  margin: 1.5em auto 4.5em auto;
+  width: 10em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact {
+  background-color: #ffffff;
+}
+
+/* line 3, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .contact_header {
+  margin-bottom: 4em;
+  font-family: 'existencelight', sans-serif;
+}
+
+/* line 7, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .form_block_element {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  width: 95%;
+  height: 2.8em;
+  margin: 0.4em 0 0.4em 14px;
+  border: 0.8px solid #777777;
+  padding-left: 1em;
+}
+
+/* line 2, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/modules/_mixins.scss */
+.contact .form_block_element ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #c9c9c9;
+  font-size: 1.1em;
+  font-family: 'latolight', Arial, sans-serif;
+}
+
+/* line 7, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/modules/_mixins.scss */
+.contact .form_block_element :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #c9c9c9;
+  opacity: 1;
+  font-size: 1.1em;
+  font-family: 'latolight', Arial, sans-serif;
+}
+
+/* line 13, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/modules/_mixins.scss */
+.contact .form_block_element ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #c9c9c9;
+  opacity: 1;
+  font-size: 1.1em;
+  font-family: 'latolight', Arial, sans-serif;
+}
+
+/* line 19, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/modules/_mixins.scss */
+.contact .form_block_element :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c9c9c9;
+  font-size: 1.1em;
+  font-family: 'latolight', Arial, sans-serif;
+}
+
+/* line 18, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .message {
+  height: 9em;
+  padding-top: 0.8em;
+}
+
+/* line 22, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .submit {
+  font-family: 'latolight', Arial, sans-serif;
+  background-color: #9f449b;
+  font-size: 1.1rem;
+  display: block;
+  padding: 0.7em 0;
+  margin: 0.4em 0 0.4em 15px;
+  width: 10em;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.4em;
+}
+
+/* line 35, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .company_details {
+  padding-left: 0.2em;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 41, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .company_description {
+  margin-top: 0.4em;
+  margin-bottom: 0.8em;
+  color: #4b4b4b;
+  line-height: 1.2em;
+}
+
+/* line 47, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .company_address {
+  font-weight: bold;
+  margin: 1.5em 0;
+  line-height: 1.2em;
+}
+
+/* line 52, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .company_telephone {
+  font-weight: bold;
+  padding: 0.2em 0;
+}
+
+/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_footer.scss */
+footer {
+  background-color: #ffffff;
+  padding: 4em 0;
+}
+
 /* Robie test komentarza */
