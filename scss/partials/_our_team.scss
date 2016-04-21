@@ -78,5 +78,41 @@
             }
                         
         }
+        .slide_viewer {
+            position: relative; /* needed for IE7 */
+            overflow: hidden;
+            height: 18em;
+        }
+
+        .slide_group {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .slide {
+            width: 100%;
+            height: 100%;
+            display: none;
+            position: absolute;
+            &:first-child {
+                display: block;
+            }
+        }
+        .slide_1 {
+            .person_image {
+                background-image: url("../images/wiola.png");
+            }
+        }
+        .slide_2 {
+            .person_image {
+            background-image: url("../images/cat.png");
+            }
+        }
+        .slide_3 {
+            .person_image {
+            background-image: url("../images/me.png");
+            }
+        }
     }
 }
