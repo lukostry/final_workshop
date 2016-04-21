@@ -3,6 +3,7 @@
     svg {
         width: 100%;
         margin: 0; 
+       
     }
     #_1svg {
         .cls-1, .cls-2, .cls-3 {
@@ -14,6 +15,7 @@
             stroke: #fff;
             stroke-linejoin: round;
             stroke-width: 4px;
+            transition: 1s;
           }
     
           .cls-1, .cls-2 {
@@ -52,22 +54,24 @@
         width: 40%;
         margin: 0;
         .cls-1 {
-        fill: #fff;
-        fill-opacity: 0.1;
-        stroke: #fff;
-        stroke-linejoin: round;
-        stroke-width: 4px;
-        fill-rule: evenodd;
+            fill: #fff;
+            fill-opacity: 0.1;
+            stroke: #fff;
+            stroke-linejoin: round;
+            stroke-width: 4px;
+            fill-rule: evenodd;
+            transition: 1s;    
         }
     }
     #feature_4 {
         width: 75%;
         .cls-1 {
-        fill: #fff;
-        fill-opacity: 0.1;
-        stroke: #ccd0d2;
-        stroke-linejoin: round;
-        stroke-width: 4px;
+            fill: #fff;
+            fill-opacity: 0.1;
+            stroke: #ccd0d2;
+            stroke-linejoin: round;
+            stroke-width: 4px;
+            transition: 1s;
       }
 
       .cls-1, .cls-2 {

@@ -277,7 +277,7 @@ header .sub_message h6 {
   text-align: center;
 }
 
-/* line 36, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 37, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header svg:hover .cls-1 {
   fill: #9e459a !important;
   fill-opacity: 1 !important;
@@ -295,37 +295,38 @@ header svg:hover .cls-1 {
   margin: 0;
 }
 
-/* line 8, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 9, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #_1svg .cls-1, .svg_wrapper #_1svg .cls-2, .svg_wrapper #_1svg .cls-3 {
   fill: #fff;
 }
 
-/* line 12, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 13, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #_1svg .cls-1 {
   fill-opacity: 0.1;
   stroke: #fff;
   stroke-linejoin: round;
   stroke-width: 4px;
+  transition: 1s;
 }
 
-/* line 19, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 21, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #_1svg .cls-1, .svg_wrapper #_1svg .cls-2 {
   fill-rule: evenodd;
 }
 
-/* line 23, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 25, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #_1svg .cls-3 {
   font-size: 18px;
   text-anchor: middle;
   font-family: Lato;
 }
 
-/* line 30, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 32, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #_2svg .cls-1, .svg_wrapper #_2svg .cls-2, .svg_wrapper #_2svg .cls-3 {
   fill: #fff;
 }
 
-/* line 34, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 36, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #_2svg .cls-1 {
   fill-opacity: 0.1;
   stroke: #fff;
@@ -333,25 +334,25 @@ header svg:hover .cls-1 {
   stroke-width: 4px;
 }
 
-/* line 41, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 43, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #_2svg .cls-1, .svg_wrapper #_2svg .cls-2 {
   fill-rule: evenodd;
 }
 
-/* line 45, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 47, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #_2svg .cls-3 {
   font-size: 18px;
   text-anchor: middle;
   font-family: Lato;
 }
 
-/* line 51, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 53, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #scroller {
   width: 40%;
   margin: 0;
 }
 
-/* line 54, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 56, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #scroller .cls-1 {
   fill: #fff;
   fill-opacity: 0.1;
@@ -359,39 +360,41 @@ header svg:hover .cls-1 {
   stroke-linejoin: round;
   stroke-width: 4px;
   fill-rule: evenodd;
+  transition: 1s;
 }
 
-/* line 63, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 66, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #feature_4 {
   width: 75%;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 68, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #feature_4 .cls-1 {
   fill: #fff;
   fill-opacity: 0.1;
   stroke: #ccd0d2;
   stroke-linejoin: round;
   stroke-width: 4px;
+  transition: 1s;
 }
 
-/* line 73, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 77, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #feature_4 .cls-1, .svg_wrapper #feature_4 .cls-2 {
   fill-rule: evenodd;
 }
 
-/* line 77, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 81, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #feature_4 .cls-2 {
   fill: #d1d5d7;
 }
 
-/* line 82, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 86, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #icon_univ .cls-1, .svg_wrapper #icon_univ .cls-2 {
   fill: #fff;
   fill-rule: evenodd;
 }
 
-/* line 87, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 91, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper #icon_univ .cls-1 {
   fill-opacity: 0.1;
   stroke: #fff;
@@ -441,6 +444,17 @@ nav .menu_top li {
 /* line 27, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
 nav .menu_top li:first-child {
   margin: 0 0.5em 0 0;
+}
+
+/* line 37, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
+.sticky {
+  position: fixed;
+  z-index: 900;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0 2px #DDDDDD;
 }
 
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
