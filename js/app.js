@@ -60,19 +60,19 @@ $(document).ready(function() {
         function move(newIndex) {          // Przejście ze starego do nowego slajdu.
             var animateLeft, slideLeft;      // Deklaracja zmiennych.
         
-        /*
+        
             // Jeżeli odtwarzana jest animacja slajdu, to nie podejmujemy żadnych działań.
-            if ($group.is(':animated')) {  
+            if ($group.is(":animated")) {  
               return;
             }
-        */
+        
         
             if (newIndex > currentIndex) {   // Jeżeli nowy element > bieżący.
                 slideLeft = "100%";            // Umieszczenie nowego slajdu po prawej stronie.
                 animateLeft = "-100%";         // Animacja bieżącej grupy w lewą stronę.
             } else {                         // W przeciwnym razie.
-                slideLeft = '-100%';           // Umieszczenie nowego slajdu po lewej stronie.
-                animateLeft = '100%';          // Animacja bieżącej grupy w prawą stronę.
+                slideLeft = "-100%";           // Umieszczenie nowego slajdu po lewej stronie.
+                animateLeft = "100%";          // Animacja bieżącej grupy w prawą stronę.
             }
             // Umieszczenie nowego slajdu po lewej (jeśli ma mniejszą wartość indeksu niż bieżący) lub prawej (jeśli ma tę wartość większą).
             $slides.eq(newIndex).css( {left: slideLeft, display: "block"} );
@@ -80,7 +80,7 @@ $(document).ready(function() {
             $group.animate({
                 left: animateLeft
             }, 500, function() {    // Animacja slajdu
-                    $slides.eq(currentIndex).css( {display: 'none'} ); // i ukrycie poprzedniego.     
+                    $slides.eq(currentIndex).css( {display: "none"} ); // i ukrycie poprzedniego.     
                     $slides.eq(newIndex).css( {left: 0} ); // Ustawienie położenia dla nowego slajdu.
                     $group.css( {left: 0} );               // Ustawienie położenia grupy slajdów.
                     currentIndex = newIndex;               // Ustawienie zmiennej currentIndex wartości nowego obrazu.

@@ -710,12 +710,19 @@ nav .menu_top li a {
   background-image: url("../images/wiola.png");
 }
 
-/* line 108, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 105, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+.our_team .members .slide_1 .person_image:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  /* For IE8 and earlier */
+}
+
+/* line 112, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_2 .person_image {
   background-image: url("../images/cat.png");
 }
 
-/* line 113, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 117, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_3 .person_image {
   background-image: url("../images/me.png");
 }
