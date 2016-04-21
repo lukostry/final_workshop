@@ -277,6 +277,13 @@ header .sub_message h6 {
   text-align: center;
 }
 
+/* line 36, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+header svg:hover .cls-1 {
+  fill: #9e459a !important;
+  fill-opacity: 1 !important;
+  stroke: #9e459a !important;
+}
+
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper {
   margin: 0 auto;

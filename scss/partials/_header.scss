@@ -30,4 +30,15 @@ header {
             text-align: center;
         }
     }
+    svg {
+        &:hover {
+//            background-color: azure;
+            .cls-1 {
+                
+                fill: #9e459a !important;
+                fill-opacity: 1 !important;
+                stroke: #9e459a !important;
+             }
+        }
+    }
 }
