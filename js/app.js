@@ -16,12 +16,22 @@ $(document).ready(function() {
                 scrollTop: $(dest).offset().top
             }, 1000);
         }
-        console.log($(this));
-        if ($(this) === $(".slide .internal")) {
-            clearProgressBar();
-            animateSkills();
+        
+        function scrollToAnchorWithCallback() {
+            $("html, body").animate ({
+                scrollTop: $(dest).offset().top
+            }, 1000, function(){
+                clearProgressBar();
+                animateSkills();
+            });
         }
-        scrollToAnchor();
+        
+        if ($(this).data("team-member")) {
+            scrollToAnchorWithCallback();
+        } else {
+            scrollToAnchor();
+        }
+        
        
     });
     
@@ -52,6 +62,61 @@ $(document).ready(function() {
         
         checkCurrentPosition();    
     });
+    
+    //Part responsible for animating and changing skills of team members
+        
+    //function responsible for animating skills
+    
+    function animateSkills() {
+        
+        //declaring variables
+    
+        var activePerson = $(".active_person");
+        var webDesignSkills = activePerson.data("web-design-skills");
+        var graphicDesignSkills = activePerson.data("graphic-skills");
+        var htmlSkills = activePerson.data("html-skills"); 
+        var uiSkills = activePerson.data("ui-skills");
+        
+        var skillsDiv = $(".skills");
+    
+        skillsDiv.each(function() { //for each div which stores data about skills update relevant data based on data-set attributes of active member
+            if ($(this).hasClass("web_design")) {
+                $(this).find(".percentage").text(webDesignSkills);
+                $(this).find(".progress_bell").animate ({
+                    width: webDesignSkills
+                }, 1000);
+            }
+            if ($(this).hasClass("graphic_design")) {
+                $(this).find(".percentage").text(graphicDesignSkills);
+                $(this).find(".progress_bell").animate ({
+                    width: graphicDesignSkills
+                }, 1000);
+            }
+            if ($(this).hasClass("html_skills")) {
+                $(this).find(".percentage").text(htmlSkills);
+                $(this).find(".progress_bell").animate ({
+                    width: htmlSkills
+                }, 1000);
+            }
+            if ($(this).hasClass("ui_skills")) {
+                $(this).find(".percentage").text(uiSkills);
+                $(this).find(".progress_bell").animate ({
+                    width: uiSkills
+                }, 1000);
+            }
+        });
+    }
+    
+    //Function responsible for clearing progress bar which will be used ater clicking on a relevant anchor
+    
+    function clearProgressBar() {
+        var progressBar = $(".progress_bell");
+        progressBar.each(function() {
+            $(this).css( {width: "0%"} ); 
+        });
+    }
+    
+    animateSkills();
     
     //Creating slider in our_team section
     
@@ -126,60 +191,7 @@ $(document).ready(function() {
             moveToPrevSlide();
         });
         
-        //Part responsible for animating and changing skills of team members
         
-        //function responsible for animating skills
-        
-        function animateSkills() {
-            
-            //declaring variables
-        
-            var activePerson = $(".active_person");
-            var webDesignSkills = activePerson.data("web-design-skills");
-            var graphicDesignSkills = activePerson.data("graphic-skills");
-            var htmlSkills = activePerson.data("html-skills"); 
-            var uiSkills = activePerson.data("ui-skills");
-            
-            var skillsDiv = $(".skills");
-        
-            skillsDiv.each(function() { //for each div which stores data about skills update relevant data based on data-set attributes of active member
-                if ($(this).hasClass("web_design")) {
-                    $(this).find(".percentage").text(webDesignSkills);
-                    $(this).find(".progress_bell").delay(500).animate ({
-                        width: webDesignSkills
-                    }, 1000);
-                }
-                if ($(this).hasClass("graphic_design")) {
-                    $(this).find(".percentage").text(graphicDesignSkills);
-                    $(this).find(".progress_bell").delay(500).animate ({
-                        width: graphicDesignSkills
-                    }, 1000);
-                }
-                if ($(this).hasClass("html_skills")) {
-                    $(this).find(".percentage").text(htmlSkills);
-                    $(this).find(".progress_bell").delay(500).animate ({
-                        width: htmlSkills
-                    }, 1000);
-                }
-                if ($(this).hasClass("ui_skills")) {
-                    $(this).find(".percentage").fadeOut().delay(2500).text(uiSkills).fadeIn();
-                    $(this).find(".progress_bell").delay(500).animate ({
-                        width: uiSkills
-                    }, 1000);
-                }
-            });
-        }
-        
-        //Function responsible for clearing progress bar which will be used ater clicking on a relevant anchor
-        
-        function clearProgressBar() {
-            var progressBar = $(".progress_bell");
-            progressBar.each(function() {
-                $(this).css( {width: "0%"} ); 
-            });
-        }
-        
-        animateSkills();
       });
 
 });    
