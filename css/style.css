@@ -608,26 +608,30 @@ nav .menu_top li a {
   height: 8em;
   background-color: #cdcdcd;
   margin: 0 auto;
+  /* &:hover {
+                opacity: 0.7;
+                filter: alpha(opacity=70);  For IE8 and earlier 
+            }*/
 }
 
-/* line 24, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 28, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .person_name {
   font-size: 1.5em;
   font-weight: bold;
   margin: 1.25em 0 0.5em 0;
 }
 
-/* line 29, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 33, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .person_position {
   font-size: 1em;
 }
 
-/* line 32, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 36, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container {
   margin: 0.6em auto 0 auto;
 }
 
-/* line 35, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 39, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container .social_icon_wrapper {
   display: inline-block;
   width: 1.7em;
@@ -635,12 +639,12 @@ nav .menu_top li a {
   margin: 0 0;
 }
 
-/* line 40, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 44, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container .social_icon_wrapper svg {
   width: 100%;
 }
 
-/* line 44, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 48, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container .social_icon_wrapper #google_icon .cls-1 {
   fill: #dadada;
   fill-opacity: 0;
@@ -649,7 +653,7 @@ nav .menu_top li a {
   stroke-width: 1px;
 }
 
-/* line 52, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 56, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container .social_icon_wrapper #google_icon .cls-2 {
   font-size: 16px;
   fill: #222;
@@ -658,7 +662,7 @@ nav .menu_top li a {
   font-weight: 300;
 }
 
-/* line 61, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container .social_icon_wrapper #facebook_icon .cls-1 {
   fill: #dadada;
   fill-opacity: 0;
@@ -668,7 +672,7 @@ nav .menu_top li a {
   fill-rule: evenodd;
 }
 
-/* line 70, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 74, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container .social_icon_wrapper #facebook_icon .cls-2 {
   font-size: 16px;
   fill: #222;
@@ -677,7 +681,7 @@ nav .menu_top li a {
   font-weight: 300;
 }
 
-/* line 81, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 85, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_viewer {
   position: relative;
   /* needed for IE7 */
@@ -685,14 +689,14 @@ nav .menu_top li a {
   height: 18em;
 }
 
-/* line 87, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 91, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_group {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-/* line 93, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 97, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide {
   width: 100%;
   height: 100%;
@@ -700,31 +704,45 @@ nav .menu_top li a {
   position: absolute;
 }
 
-/* line 98, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 102, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide:first-child {
   display: block;
 }
 
-/* line 103, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 107, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_1 .person_image {
   background-image: url("../images/wiola.png");
 }
 
-/* line 105, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 109, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_1 .person_image:hover {
   opacity: 0.7;
   filter: alpha(opacity=70);
   /* For IE8 and earlier */
 }
 
-/* line 112, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 116, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_2 .person_image {
   background-image: url("../images/cat.png");
 }
 
-/* line 117, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 118, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+.our_team .members .slide_2 .person_image:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  /* For IE8 and earlier */
+}
+
+/* line 125, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_3 .person_image {
   background-image: url("../images/me.png");
+}
+
+/* line 127, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+.our_team .members .slide_3 .person_image:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  /* For IE8 and earlier */
 }
 
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */

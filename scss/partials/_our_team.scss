@@ -20,6 +20,10 @@
             height: 8em;
             background-color: #cdcdcd;
             margin: 0 auto;
+           /* &:hover {
+                opacity: 0.7;
+                filter: alpha(opacity=70);  For IE8 and earlier 
+            }*/
         }
         .person_name {
             font-size: 1.5em;
@@ -111,11 +115,19 @@
         .slide_2 {
             .person_image {
             background-image: url("../images/cat.png");
+            &:hover {
+                    opacity: 0.7;
+                    filter: alpha(opacity=70); /* For IE8 and earlier */
+                }    
             }
         }
         .slide_3 {
             .person_image {
             background-image: url("../images/me.png");
+            &:hover {
+                    opacity: 0.7;
+                    filter: alpha(opacity=70); /* For IE8 and earlier */
+                }    
             }
         }
     }
