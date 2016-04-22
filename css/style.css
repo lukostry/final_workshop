@@ -723,7 +723,7 @@ nav .menu_top li a {
 
 /* line 116, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_2 .person_image {
-  background-image: url("../images/cat.png");
+  background-image: url("../images/me.png");
 }
 
 /* line 118, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
@@ -735,7 +735,7 @@ nav .menu_top li a {
 
 /* line 125, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_3 .person_image {
-  background-image: url("../images/me.png");
+  background-image: url("../images/cat.png");
 }
 
 /* line 127, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
@@ -812,7 +812,7 @@ nav .menu_top li a {
 .our_skills .main_bell .progress_bell {
   background-color: #9f449b;
   height: 100%;
-  width: 90%;
+  width: 0%;
 }
 
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
