@@ -5,6 +5,7 @@
         margin: 0;
         .cls-1, .cls-2, .cls-3 {
             fill: #fff;
+         /*   fill-opacity: 0; //mine addition*/
           }
     
           .cls-1 {
@@ -12,17 +13,19 @@
             stroke: #fff;
             stroke-linejoin: round;
             stroke-width: 4px;
+            stroke-opacity: 0;  //mine addition
             transition: 1s;
           }
     
           .cls-1, .cls-2 {
             fill-rule: evenodd;
+            fill-opacity: 0; //mine addition  
           }
     
           .cls-3 {
             font-size: 18px;
             text-anchor: middle;
-            font-family: Lato;
+            /*font-family: Lato;*/
           }
        
     }
