@@ -1,105 +1,62 @@
 .svg_wrapper {
     margin: 0 auto;
-    svg {
-        width: 100%;
-        margin: 0;
-        .cls-1, .cls-2, .cls-3 {
-            fill: #fff;
-         /*   fill-opacity: 0; //mine addition*/
-          }
-    
-          .cls-1 {
-            fill-opacity: 0.1;
-            stroke: #fff;
-            stroke-linejoin: round;
-            stroke-width: 4px;
-            stroke-opacity: 0;  //mine addition
-            transition: 1s;
-          }
-    
-          .cls-1, .cls-2 {
-            fill-rule: evenodd;
-            fill-opacity: 0; //mine addition  
-          }
-    
-          .cls-3 {
-            font-size: 18px;
-            text-anchor: middle;
-            /*font-family: Lato;*/
-          }
-       
-    }
-   /* #_1svg {
+}
+header {
+    .svg_wrapper {
+        svg {
+            width: 100%;
+            margin: 0;
+            .cls-1, .cls-2, .cls-3 {
+                fill: #fff;
+             /*   fill-opacity: 0; //mine addition*/
+              }
         
-    }
-    #_2svg {
-        .cls-1, .cls-2, .cls-3 {
-        fill: #fff;
+              .cls-1 {
+                fill-opacity: 0.1;
+                stroke: #fff;
+                stroke-linejoin: round;
+                stroke-width: 4px;
+                stroke-opacity: 0;  //mine addition
+                transition: 1s;
+              }
+        
+              .cls-1, .cls-2 {
+                fill-rule: evenodd;
+                fill-opacity: 0; //mine addition  
+              }
+        
+              .cls-3 {
+                font-size: 18px;
+                text-anchor: middle;
+                /*font-family: Lato;*/
+              }
+           
         }
-
-       .cls-1 {
+        #scroller {
+            width: 40%;
+            margin: 0;
+            .cls-1 {
+                fill: #fff;
+                fill-opacity: 0.1;
+                stroke: #fff;
+                stroke-linejoin: round;
+                stroke-width: 4px;
+                fill-rule: evenodd;
+                transition: 1s;    
+            }
+        }
+    }
+}
+.features {
+    .svg_wrapper {
+        margin: 0 auto;
+        width: 70%;
+        .cls-1 {
+        fill: #fff;
         fill-opacity: 0.1;
-        stroke: #fff;
+        stroke: #ccd0d2;
         stroke-linejoin: round;
         stroke-width: 4px;
-        transition: 1s;   
-        }
-
-       .cls-1, .cls-2 {
-        fill-rule: evenodd;
-       }
-
-       .cls-3 {
-        font-size: 18px;
-        text-anchor: middle;
-        font-family: Lato;
-       }
-    }
-    #_4svg {
-        .cls-1, .cls-2, .cls-3 {
-        fill: #fff;
-      }
-
-      .cls-1 {
-        fill-opacity: 0.1;
-        stroke: #fff;
-        stroke-linejoin: round;
-        stroke-width: 4px;
-        transition: 1s;  
-      }
-
-      .cls-1, .cls-2 {
-        fill-rule: evenodd;
-      }
-
-      .cls-3 {
-        font-size: 18px;
-        text-anchor: middle;
-        font-family: Lato;
-      }
-    }*/
-    #scroller {
-        width: 40%;
-        margin: 0;
-        .cls-1 {
-            fill: #fff;
-            fill-opacity: 0.1;
-            stroke: #fff;
-            stroke-linejoin: round;
-            stroke-width: 4px;
-            fill-rule: evenodd;
-            transition: 1s;    
-        }
-    }
-    #feature_4 {
-        width: 75%;
-        .cls-1 {
-            fill: #fff;
-            fill-opacity: 0.1;
-            stroke: #ccd0d2;
-            stroke-linejoin: round;
-            stroke-width: 4px;
-            transition: 1s;
       }
 
       .cls-1, .cls-2 {
@@ -107,9 +64,10 @@
       }
 
       .cls-2 {
-        fill: #d1d5d7;
+        fill: #ccd0d2;
       }
     }
+}
     #icon_univ {
         .cls-1, .cls-2 {
         fill: #fff;
@@ -124,4 +82,3 @@
       }
     }
     
-}
