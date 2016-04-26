@@ -520,8 +520,11 @@ nav .menu_top li a {
   background-color: #9f449b;
   font-size: 1.25rem;
   padding: 0.7em 1.5em;
+  width: 10em;
   text-decoration: none;
   color: #ffffff;
+  border-radius: 0.3em;
+  box-shadow: 0 3px #6b2e68;
 }
 
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_intermediate.scss */
@@ -910,6 +913,8 @@ nav .menu_top li a {
   width: 10em;
   text-decoration: none;
   color: #ffffff;
+  border-radius: 0.3em;
+  box-shadow: 0 3px #6b2e68;
 }
 
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
@@ -981,22 +986,23 @@ nav .menu_top li a {
   font-size: 1.1rem;
   display: block;
   padding: 0.7em 0;
-  margin: 0.4em 0 0.4em 15px;
+  margin: 0.4em 0 0.4em 16px;
   width: 10em;
   text-decoration: none;
   color: #ffffff;
   border: none;
-  border-radius: 0.4em;
+  border-radius: 0.3em;
+  box-shadow: 0 3px #6b2e68;
 }
 
-/* line 36, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 37, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_details {
   padding-left: 0.2em;
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 42, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 43, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_description {
   margin-top: 0.4em;
   margin-bottom: 0.8em;
@@ -1004,14 +1010,14 @@ nav .menu_top li a {
   line-height: 1.2em;
 }
 
-/* line 48, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 49, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_address {
   font-weight: bold;
   margin: 1.5em 0;
   line-height: 1.2em;
 }
 
-/* line 53, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 54, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_telephone {
   font-weight: bold;
   padding: 0.2em 0;
