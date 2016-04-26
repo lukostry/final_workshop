@@ -69,6 +69,38 @@ p {
     }
 }
 
+.text_container {
+        position: relative;
+        margin: 0 auto;
+        display: inline-block;
+        h2 {
+            margin: 1.2em 0;
+//            position: relative;
+            &::before {
+                position: absolute;
+                top: 2em;
+                left: -0.7em;
+                content: " ";
+                display: block;
+                width: 0.6em;
+                height: 0.6em;
+                border-bottom: 1px solid #c186be;
+                border-left: 1px solid #c186be;
+            }
+            &::after {
+                position: absolute;
+                bottom: 2em;
+                right: -0.7em;
+                content: " ";
+                display: block;
+                width: 0.6em;
+                height: 0.6em;
+                border-top: 1px solid #c186be;
+                border-right: 1px solid #c186be;
+            }
+        }
+}
+
 @import "header";
 
 @import "svg_wrappers";

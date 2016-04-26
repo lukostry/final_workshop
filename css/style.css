@@ -236,6 +236,44 @@ p {
   width: 100%;
 }
 
+/* line 72, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+.text_container {
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+/* line 76, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+.text_container h2 {
+  margin: 1.2em 0;
+}
+
+/* line 79, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+.text_container h2::before {
+  position: absolute;
+  top: 2em;
+  left: -0.7em;
+  content: " ";
+  display: block;
+  width: 0.6em;
+  height: 0.6em;
+  border-bottom: 1px solid #c186be;
+  border-left: 1px solid #c186be;
+}
+
+/* line 90, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+.text_container h2::after {
+  position: absolute;
+  bottom: 2em;
+  right: -0.7em;
+  content: " ";
+  display: block;
+  width: 0.6em;
+  height: 0.6em;
+  border-top: 1px solid #c186be;
+  border-right: 1px solid #c186be;
+}
+
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header {
   height: 600px;
@@ -464,33 +502,19 @@ nav .menu_top li a {
   padding: 3em 0 4.5em 0;
 }
 
-/* line 4, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
-.about h2 {
-  margin: 1.2em 0;
-}
-
 /* line 6, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
-.about h2:before {
-  content: " ";
-  width: 1em;
-  height: 1em;
-  border-bottom: 10px solid #c186be;
-  border-left: 10px solid #c186be;
-}
-
-/* line 17, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
 .about img {
   width: 100%;
 }
 
-/* line 20, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
+/* line 9, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
 .about p {
   line-height: 1.5em;
   text-align: left;
   margin: 1.5em 0 6.8em 0;
 }
 
-/* line 25, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
+/* line 14, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
 .about a {
   display: block;
   background-color: #9f449b;
@@ -899,7 +923,7 @@ nav .menu_top li a {
   font-family: 'existencelight', sans-serif;
 }
 
-/* line 7, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 8, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .form_block_element {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.1em;
@@ -944,13 +968,13 @@ nav .menu_top li a {
   font-family: 'latolight', Arial, sans-serif;
 }
 
-/* line 18, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 19, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .message {
   height: 9em;
   padding-top: 0.8em;
 }
 
-/* line 22, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 23, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .submit {
   font-family: 'latolight', Arial, sans-serif;
   background-color: #9f449b;
@@ -965,14 +989,14 @@ nav .menu_top li a {
   border-radius: 0.4em;
 }
 
-/* line 35, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 36, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_details {
   padding-left: 0.2em;
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 41, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 42, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_description {
   margin-top: 0.4em;
   margin-bottom: 0.8em;
@@ -980,14 +1004,14 @@ nav .menu_top li a {
   line-height: 1.2em;
 }
 
-/* line 47, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 48, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_address {
   font-weight: bold;
   margin: 1.5em 0;
   line-height: 1.2em;
 }
 
-/* line 52, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 53, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_telephone {
   font-weight: bold;
   padding: 0.2em 0;
