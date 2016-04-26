@@ -8,4 +8,14 @@
     p {
         line-height: 1.5em;
     }
+    svg {
+        &:hover {
+            .cls-1 {
+                stroke: #9e459a !important;
+            }
+            .cls-2 {
+                fill: #9e459a !important; 
+            }
+        }
+    }
 }

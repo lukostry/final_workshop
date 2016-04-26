@@ -496,6 +496,16 @@ nav .menu_top li a {
   line-height: 1.5em;
 }
 
+/* line 13, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
+.features svg:hover .cls-1 {
+  stroke: #9e459a !important;
+}
+
+/* line 16, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
+.features svg:hover .cls-2 {
+  fill: #9e459a !important;
+}
+
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
 .about {
   background-color: #ffffff;
