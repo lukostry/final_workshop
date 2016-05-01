@@ -17,7 +17,7 @@
        
     }
     .message {
-        height: 9em;
+        height: 11em;
         padding-top: 0.8em;
     }
     .submit {
@@ -54,5 +54,34 @@
     .company_telephone {
         font-weight: bold;
         padding: 0.2em 0;
+    }
+    .social_icons {
+        text-align: left;
+        padding-top: 2.7em;
+        .social_icons_wrap {
+            display: inline-block;
+            width: 2.9em;
+            height: 2.9em;
+            margin-right: 1.2em;
+            svg {
+                width: 100%;
+                .cls-1 {
+                    fill: #cdcdcd;
+                    fill-opacity: 0;
+                    stroke: #777;
+                    stroke-linejoin: round;
+                    stroke-width: 1px;
+                    fill-rule: evenodd;
+                }
+    
+                .cls-2 {
+                  font-size: 36px;
+                  fill: #222;
+                  text-anchor: middle;
+                  font-family: 'titilliumregular', Arial, sans-serif;
+                  font-weight: 300;
+                }
+            }
+        }
     }
 }

@@ -991,7 +991,7 @@ nav .menu_top li a {
 
 /* line 19, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .message {
-  height: 9em;
+  height: 11em;
   padding-top: 0.8em;
 }
 
@@ -1037,6 +1037,44 @@ nav .menu_top li a {
 .contact .company_telephone {
   font-weight: bold;
   padding: 0.2em 0;
+}
+
+/* line 58, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .social_icons {
+  text-align: left;
+  padding-top: 2.7em;
+}
+
+/* line 61, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .social_icons .social_icons_wrap {
+  display: inline-block;
+  width: 2.9em;
+  height: 2.9em;
+  margin-right: 1.2em;
+}
+
+/* line 66, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .social_icons .social_icons_wrap svg {
+  width: 100%;
+}
+
+/* line 68, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .social_icons .social_icons_wrap svg .cls-1 {
+  fill: #cdcdcd;
+  fill-opacity: 0;
+  stroke: #777;
+  stroke-linejoin: round;
+  stroke-width: 1px;
+  fill-rule: evenodd;
+}
+
+/* line 77, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+.contact .social_icons .social_icons_wrap svg .cls-2 {
+  font-size: 36px;
+  fill: #222;
+  text-anchor: middle;
+  font-family: 'titilliumregular', Arial, sans-serif;
+  font-weight: 300;
 }
 
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_footer.scss */
