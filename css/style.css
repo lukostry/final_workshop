@@ -101,17 +101,9 @@ table {
 
 /* line 7, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 html {
-  background-image: url("../images/background.jpg");
   /*    padding-bottom: (2000 / 1100) * 100%;
     background-size: contain;
     background-repeat: no-repeat;*/
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 /* line 21, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
@@ -277,14 +269,19 @@ p {
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header {
   height: 600px;
-  /*    background-image: url("../images/background.jpg");
-    padding-bottom: (2000 / 1100) * 100%;
-    background-size: contain;*/
   padding-top: 2.5em;
   background-repeat: no-repeat;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-/* line 8, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 15, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header .greet_message {
   font-family: 'existencelight', sans-serif;
   margin: 0 auto 1.4em auto;
@@ -293,7 +290,7 @@ header .greet_message {
   justify-content: center;
 }
 
-/* line 17, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 24, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header .sub_message {
   font-family: 'latohairline', sans-serif;
   display: flex;
@@ -303,19 +300,19 @@ header .sub_message {
   margin: 0 0 1.3em 0;
 }
 
-/* line 24, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 31, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header .sub_message h2 {
   color: #ffffff;
   margin: 0 0 0.5em 0;
 }
 
-/* line 28, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 35, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header .sub_message h6 {
   color: #ffffff;
   text-align: center;
 }
 
-/* line 37, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 44, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header svg:hover .cls-1 {
   fill: #9e459a !important;
   fill-opacity: 1 !important;

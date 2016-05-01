@@ -1,10 +1,17 @@
 header {
     height: 600px;
-/*    background-image: url("../images/background.jpg");
-    padding-bottom: (2000 / 1100) * 100%;
-    background-size: contain;*/
     padding-top: 2.5em;
+    
+    background-repeat: no-repeat;    
+    background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
     .greet_message {
         font-family: 'existencelight', sans-serif;
         margin: 0 auto 1.4em auto;
