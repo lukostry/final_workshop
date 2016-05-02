@@ -12,10 +12,10 @@
     }
     .person_image {
             border-radius: 50%;
-            width: 6em;
-            height: 6em;
+            width: 8em;
+            height: 8em;
             background-color: #cdcdcd;
-            margin: 0 auto 0 auto;
+            margin: 0 auto 1em auto;
         }
     .main_quote {
         margin-top: 5em;
@@ -30,7 +30,7 @@
         }
     }
     .carousel_controls {
-        margin: 3em auto 2em auto;
+        margin: 2em auto;
     }
     .carousel_selector {
         display: inline-block;
@@ -38,6 +38,6 @@
         height: 0.7rem;
         border: 1px solid #777777;
         border-radius: 50%;
-        margin: 0.25em;
+        margin: 0em;
     }
 }
