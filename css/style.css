@@ -849,38 +849,87 @@ nav .menu_top li a {
 }
 
 /* line 13, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
-.quotes .person_image {
-  border-radius: 50%;
+.quotes .carousel {
+  position: relative;
+  /* needed for IE7 */
+  overflow: hidden;
+  margin: 0 auto;
   width: 8em;
   height: 8em;
-  background-color: #cdcdcd;
-  margin: 0 auto 1em auto;
 }
 
 /* line 20, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+.quotes .carousel_slide_group {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* line 25, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+.quotes .person_image {
+  border-radius: 50%;
+  background-color: #cdcdcd;
+  margin: 0 auto 1em auto;
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+}
+
+/* line 33, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+.quotes .person_image:first-child {
+  display: block;
+}
+
+/* line 37, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+.quotes .carousel_slide_1 {
+  background-image: url("../images/violet.png");
+}
+
+/* line 40, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+.quotes .carousel_slide_2 {
+  background-image: url("../images/moi.png");
+}
+
+/* line 43, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+.quotes .carousel_slide_3 {
+  background-image: url("../images/kamilos.png");
+}
+
+/* line 46, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+.quotes .carousel_slide_4 {
+  background-image: url("../images/przemsi.png");
+}
+
+/* line 49, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+.quotes .carousel_slide_5 {
+  background-image: url("../images/maltese.png");
+}
+
+/* line 52, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .main_quote {
   margin-top: 5em;
 }
 
-/* line 23, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 55, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .quotation {
   color: #4b4b4b;
   text-align: center;
   padding: 0.7em 0;
 }
 
-/* line 27, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 59, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .quotation .author {
   margin: 0 auto;
   color: #777777;
 }
 
-/* line 32, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 64, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .carousel_controls {
   margin: 2em auto;
 }
 
-/* line 35, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 67, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .carousel_selector {
   display: inline-block;
   width: 0.7rem;
@@ -888,6 +937,16 @@ nav .menu_top li a {
   border: 1px solid #777777;
   border-radius: 50%;
   margin: 0em;
+}
+
+/* line 74, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+.quotes .carousel_selector:hover {
+  cursor: pointer;
+}
+
+/* line 78, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+.quotes .active_btn {
+  background-color: #777777;
 }
 
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
