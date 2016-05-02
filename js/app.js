@@ -57,7 +57,7 @@ $(document).ready(function() {
     $(window).on("scroll", function() {
         scrollPosition = $(document).scrollTop();
 
-        /*console.log(scrollPosition);
+       /* console.log(scrollPosition);
         console.log(menuPosition);*/
         
         checkCurrentPosition();    
