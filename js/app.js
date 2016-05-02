@@ -336,12 +336,11 @@ $(document).ready(function() {
         "strokeWidth": 3,
         "strokeColor": "#fff",
         "onStart": function(){ //on start of lazy painter animation
-                        $("#_6svg svg path").on("mouseover", function(){
+                        $("#_6svg").on("mouseover", function(){
                             //I'm ensuring that the stroke of the icon will change to the same color as the defined in CSS hover rule
-                            console.log($(this));
                             $("#_6svg svg path").eq(0).attr("stroke", "#9e459a");
                         });
-                         $("#_6svg svg path").on("mouseout", function(){
+                         $("#_6svg").on("mouseout", function(){ 
                             $("#_6svg svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
                         });  
                        
@@ -354,13 +353,13 @@ $(document).ready(function() {
         "strokeWidth": 3,
         "strokeColor": "#fff",
         "onStart": function(){ //on start of lazy painter animation
-                        $(".lazyline svg path").on("mouseover", function(){
+                        $("#_5svg").on("mouseover", function(){
                             //I'm ensuring that the stroke of the icon will change to the same color as the defined in CSS hover rule
-                            console.log($(this));
-                            $(this).eq(0).attr("stroke", "#9e459a");
+//                            console.log($(this));
+                            $("#_5svg svg path").eq(0).attr("stroke", "#9e459a");
                         });
-                        $(".lazyline svg path").on("mouseout", function(){
-                            $(this).eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
+                        $("#_5svg").on("mouseout", function(){
+                            $("#_5svg svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
                         });  
                        
                    }
@@ -372,13 +371,13 @@ $(document).ready(function() {
         "strokeWidth": 3,
         "strokeColor": "#fff",
         "onStart": function(){ //on start of lazy painter animation
-                        $(".lazyline svg path").on("mouseover", function(){
+                        $("#_3svg").on("mouseover", function(){
                             //I'm ensuring that the stroke of the icon will change to the same color as the defined in CSS hover rule
-                            console.log($(this));
-                            $(this).eq(0).attr("stroke", "#9e459a");
+//                            console.log($(this));
+                            $("#_3svg svg path").eq(0).attr("stroke", "#9e459a");
                         });
-                        $(".lazyline svg path").on("mouseout", function(){
-                            $(this).eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
+                        $("#_3svg").on("mouseout", function(){
+                            $("#_3svg svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
                         });  
                        
                    }
@@ -390,13 +389,13 @@ $(document).ready(function() {
         "strokeWidth": 3,
         "strokeColor": "#fff",
         "onStart": function(){ //on start of lazy painter animation
-                        $(".lazyline svg path").on("mouseover", function(){
+                        $("#_1svg").on("mouseover", function(){
                             //I'm ensuring that the stroke of the icon will change to the same color as the defined in CSS hover rule
-                            console.log($(this));
-                            $(this).eq(0).attr("stroke", "#9e459a");
+//                            console.log($(this));
+                             $("#_1svg svg path").eq(0).attr("stroke", "#9e459a");
                         });
-                        $(".lazyline svg path").on("mouseout", function(){
-                            $(this).eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
+                        $("#_1svg").on("mouseout", function(){
+                            $("#_1svg svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
                         });  
                        
                    }
@@ -408,13 +407,13 @@ $(document).ready(function() {
         "strokeWidth": 3,
         "strokeColor": "#fff",
         "onStart": function(){ //on start of lazy painter animation
-                        $(".lazyline svg path").on("mouseover", function(){
+                        $("#_4svg").on("mouseover", function(){
                             //I'm ensuring that the stroke of the icon will change to the same color as the defined in CSS hover rule
-                            console.log($(this));
-                            $(this).eq(0).attr("stroke", "#9e459a");
+//                            console.log($(this));
+                            $("#_4svg svg path").eq(0).attr("stroke", "#9e459a");
                         });
-                        $(".lazyline svg path").on("mouseout", function(){
-                            $(this).eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
+                        $("#_4svg").on("mouseout", function(){
+                            $("#_4svg svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
                         });  
                        
                    }
@@ -426,13 +425,13 @@ $(document).ready(function() {
         "strokeWidth": 3,
         "strokeColor": "#fff",
         "onStart": function(){ //on start of lazy painter animation
-                        $(".lazyline svg path").on("mouseover", function(){
+                        $("#_2svg").on("mouseover", function(){
                             //I'm ensuring that the stroke of the icon will change to the same color as the defined in CSS hover rule
-                            console.log($(this));
-                            $(this).eq(0).attr("stroke", "#9e459a");
+//                            console.log($(this));
+                            $("#_2svg svg path").eq(0).attr("stroke", "#9e459a");
                         });
-                        $(".lazyline svg path").on("mouseout", function(){
-                            $(this).eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
+                        $("#_2svg").on("mouseout", function(){
+                            $("#_2svg svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
                         });  
                        
                    }
@@ -444,13 +443,13 @@ $(document).ready(function() {
         "strokeWidth": 3,
         "strokeColor": "#fff",
         "onStart": function(){ //on start of lazy painter animation
-                        $(".lazyline svg path").on("mouseover", function(){
+                        $("#scroller").on("mouseover", function(){
                             //I'm ensuring that the stroke of the icon will change to the same color as the defined in CSS hover rule
-                            console.log($(this));
-                            $(this).eq(0).attr("stroke", "#9e459a");
+//                            console.log($(this));
+                            $("#scroller svg path").eq(0).attr("stroke", "#9e459a");
                         });
-                        $(".lazyline svg path").on("mouseout", function(){
-                            $(this).eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
+                        $("#scroller").on("mouseout", function(){
+                            $("#scroller svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
                         });  
                        
                    }
