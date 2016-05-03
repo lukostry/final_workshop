@@ -1,22 +1,22 @@
 $(document).ready(function() {
-    
+
     //Adding event listener on internal anchors to enable smooth scrolling
 
     $("a.internal").on("click", function(e) {
         e.preventDefault();
-        
+
         var dest = $(this).attr("href");
-        
+
         history.pushState(null, null, dest);
-        
+
         //The following function will animate click on an internal anchor within document
-        
+
         function scrollToAnchor() {
             $("html, body").animate ({
                 scrollTop: $(dest).offset().top
             }, 1000);
         }
-        
+
         function scrollToAnchorWithCallback() {
             $("html, body").animate ({
                 scrollTop: $(dest).offset().top
@@ -25,25 +25,25 @@ $(document).ready(function() {
                 animateSkills();
             });
         }
-        
+
         if ($(this).data("team-member")) {
             scrollToAnchorWithCallback();
         } else {
             scrollToAnchor();
         }
-        
-       
+
+
     });
-    
-    
+
+
     //Creating sticky menu
-    
+
     var navigationBar = $("nav");
     var menuPosition = navigationBar.offset().top;
     var scrollPosition = $(document).scrollTop();
-    
+
     function checkCurrentPosition() {
-        
+
         if (scrollPosition > menuPosition) {
             navigationBar.addClass("sticky");
 //            console.log("Pojechaliśmy za daleko");
@@ -53,32 +53,32 @@ $(document).ready(function() {
         }
     }
     checkCurrentPosition();
-    
+
     $(window).on("scroll", function() {
         scrollPosition = $(document).scrollTop();
 
        /* console.log(scrollPosition);
         console.log(menuPosition);*/
-        
-        checkCurrentPosition();    
+
+        checkCurrentPosition();
     });
-    
+
     //Part responsible for animating and changing skills of team members
-        
+
     //function responsible for animating skills
-    
+
     function animateSkills() {
-        
+
         //declaring variables
-    
+
         var activePerson = $(".active_person");
         var webDesignSkills = activePerson.data("web-design-skills");
         var graphicDesignSkills = activePerson.data("graphic-skills");
-        var htmlSkills = activePerson.data("html-skills"); 
+        var htmlSkills = activePerson.data("html-skills");
         var uiSkills = activePerson.data("ui-skills");
-        
+
         var skillsDiv = $(".skills");
-    
+
         skillsDiv.each(function() { //for each div which stores data about skills update relevant data based on data-set attributes of active member
             if ($(this).hasClass("web_design")) {
                 $(this).find(".percentage").text(webDesignSkills);
@@ -106,105 +106,142 @@ $(document).ready(function() {
             }
         });
     }
-    
+
     //Function responsible for clearing progress bar which will be used ater clicking on a relevant anchor
-    
+
     function clearProgressBar() {
         var progressBar = $(".progress_bell");
         progressBar.each(function() {
-            $(this).css( {width: "0%"} ); 
+            $(this).css( {width: "0%"} );
         });
     }
-    
+
     animateSkills();
-    
+
     //Creating slider in our_team section
-    
-    $(".slide_viewer").each(function() {              // Dla każdej grupy slajdów.
-        
+
+    $(".slide_viewer").each(function() {
         var $group  = $(".slide_group");        // Pobranie elementu o klasie slide-group (kontener).
         var $slides = $group.find(".slide");       // Obiekt jQuery przechowujący wszystkie slajdy.
-        var currentIndex = 0;                     // Numer indeksu bieżącego slajdu.
+        var visiblePictureIndex = 1;                     // Numer indeksu bieżącego slajdu.
         var nextSlide = $(".next_slide");      //definiuje zmienne przechowujące przyciski
         var prevSlide = $(".prev_slide");
-        
-        function move(newIndex) {          // Przejście ze starego do nowego slajdu.
-            var animateLeft, slideLeft;      // Deklaracja zmiennych.
-        
-        
-            // Jeżeli odtwarzana jest animacja slajdu, to nie podejmujemy żadnych działań.
-            if ($group.is(":animated")) {  
-              return;
-            }
-        
-        
-            if (newIndex > currentIndex) {   // Jeżeli nowy element > bieżący.
-                slideLeft = "100%";            // Umieszczenie nowego slajdu po prawej stronie.
-                animateLeft = "-100%";         // Animacja bieżącej grupy w lewą stronę.
-            } else {                         // W przeciwnym razie.
-                slideLeft = "-100%";           // Umieszczenie nowego slajdu po lewej stronie.
-                animateLeft = "100%";          // Animacja bieżącej grupy w prawą stronę.
-            }
-            // Umieszczenie nowego slajdu po lewej (jeśli ma mniejszą wartość indeksu niż bieżący) lub prawej (jeśli ma tę wartość większą).
-            $slides.eq(newIndex).css( {left: slideLeft, display: "block"} );
-        
-            $group.animate({
-                left: animateLeft
-            }, 500, function() {    // Animacja slajdu
-                    $slides.eq(currentIndex).css( {display: "none"} ); // i ukrycie poprzedniego.     
-                    $slides.eq(newIndex).css( {left: 0} ); // Ustawienie położenia dla nowego slajdu.
-                    $group.css( {left: 0} );               // Ustawienie położenia grupy slajdów.
-                
-                    $slides.eq(currentIndex).find(".person_name").removeClass("active_person");
-                    $slides.eq(newIndex).find(".person_name").addClass("active_person");
-                    animateSkills();
-                
-                    currentIndex = newIndex;               // Ustawienie zmiennej currentIndex wartości nowego obrazu.
-            });
-        }
-        
-        function moveToNextSlide() {                     // Przejście do następnego slajdu
-            
-              if (currentIndex < ($slides.length - 1)) { // Jeżeli to nie jest ostatni slajd.
-                  move(currentIndex + 1);            // Przejście do następnego slajdu.
-              } else {                             // W przeciwnym razie.
-                  move(0);                           // Przejście do pierwszego slajdu.
-              }
-        }
-        
-        function moveToPrevSlide() {                     // Przejście do poprzedniego slajdu
-            
-              if (currentIndex !== 0) { // Jeżeli to nie jest pierwszy slajd.
-                  move(currentIndex - 1);            // Przejście do poprzedniego slajdu.
-              } else {                             // W przeciwnym razie.
-                  move($slides.length - 1);                           // Przejście do pierwszego slajdu.
-              }
-        }
-        
+
+        //creating variables for the first and the last slide
+        var copyOfFirstSlide = $slides.eq(0).clone();
+        var copyOfLastSlide = $slides.last().clone();
+
+        //Adding clones to DOM
+        copyOfFirstSlide.insertAfter($slides.last());
+        copyOfLastSlide.insertBefore($slides.first());
+
+        //Adding variable for the slide container with clones
+
+        var allSlidesUpdated = $group.find(".slide");
+
+        //the second slide will be visible
+
+        allSlidesUpdated.eq(1).show();
+
         nextSlide.on("click", function(e) {
             e.preventDefault();
-            moveToNextSlide ();
+            // Jeżeli odtwarzana jest animacja slajdu, to nie podejmujemy żadnych działań.
+            if ($group.is(":animated")) {
+                return;
+            }
+
+            var animateLeft, slideLeft;      // Declaring variables responsible for animation
+
+            if (visiblePictureIndex <= $slides.length) {
+
+                slideLeft = "100%";            // Umieszczenie nowego slajdu po prawej stronie.
+                animateLeft = "-100%";         // Animacja bieżącej grupy w lewą stronę.
+
+                visiblePictureIndex++;
+
+                // Umieszczenie nowego slajdu po lewej (jeśli ma mniejszą wartość indeksu niż bieżący) lub prawej (jeśli ma tę wartość większą).
+                allSlidesUpdated.eq(visiblePictureIndex).css( {left: slideLeft, display: "block"} );
+
+                $group.animate({
+                    left: animateLeft
+                }, 500, function() {    // Animacja slajdu
+                        allSlidesUpdated.eq(visiblePictureIndex - 1).css( {display: "none"} ); // i ukrycie poprzedniego.
+                        allSlidesUpdated.eq(visiblePictureIndex).css( {left: 0} ); // Ustawienie położenia dla nowego slajdu.
+                        $group.css( {left: 0} );               // Ustawienie położenia grupy slajdów.
+
+                        $slides.eq(visiblePictureIndex).find(".person_name").removeClass("active_person");
+                        $slides.eq(visiblePictureIndex + 1).find(".person_name").addClass("active_person");
+                        animateSkills();
+
+                        //kluczowy fragment, gdy index osiąga ostatni element, robię przejście do pierwszego elementu, które trwa 0 sekeund
+                        if (visiblePictureIndex === ($slides.length)+1) {
+                            visiblePictureIndex = 1;
+                            allSlidesUpdated.eq(visiblePictureIndex).css( {left: 0, display: "block"} );
+                            allSlidesUpdated.eq($slides.length + 1).css( {display: "none"} );
+                        }
+                });
+
+
+            }
+
         });
-        
+
         prevSlide.on("click", function(e) {
             e.preventDefault();
-            moveToPrevSlide();
+            // Jeżeli odtwarzana jest animacja slajdu, to nie podejmujemy żadnych działań.
+            if ($group.is(":animated")) {
+                return;
+            }
+
+            var animateLeft, slideLeft;      // Declaring variables responsible for animation
+
+            if (visiblePictureIndex >= 1) {
+
+                slideLeft = "-100%";            // Umieszczenie nowego slajdu po lewej stronie.
+                animateLeft = "100%";         // Animacja bieżącej grupy w prawą stronę.
+
+                visiblePictureIndex--;
+
+                // Umieszczenie nowego slajdu po lewej
+                allSlidesUpdated.eq(visiblePictureIndex).css( {left: slideLeft, display: "block"} );
+
+                $group.animate({
+                    left: animateLeft
+                }, 500, function() {    // Animacja slajdu
+                        allSlidesUpdated.eq(visiblePictureIndex + 1).css( {display: "none"} ); // i ukrycie poprzedniego.
+                        allSlidesUpdated.eq(visiblePictureIndex).css( {left: 0} ); // Ustawienie położenia dla nowego slajdu.
+                        $group.css( {left: 0} );               // Ustawienie położenia grupy slajdów.
+
+                        $slides.eq(visiblePictureIndex).find(".person_name").removeClass("active_person");
+                        $slides.eq(visiblePictureIndex + 1).find(".person_name").addClass("active_person");
+                        animateSkills();
+
+                        //kluczowy fragment, gdy index osiąga ostatni element, robię przejście do pierwszego elementu, które trwa 0 sekeund
+                        if (visiblePictureIndex === 0) {
+                            visiblePictureIndex = $slides.length;
+                            allSlidesUpdated.eq(visiblePictureIndex).css( {left: 0, display: "block"} );
+                            allSlidesUpdated.eq(0).css( {display: "none"} );
+                        }
+                });
+
+
+            }
+
         });
-        
-        
-      });
-    
+
+    });
+
     //Lazy line painter
-        
-    /* 
-     * Lazy Line Painter - Path Object 
+
+    /*
+     * Lazy Line Painter - Path Object
      * Generated using 'SVG to Lazy Line Converter'
-     * 
-     * http://lazylinepainter.info 
-     * Copyright 2013, Cam O'Connell  
-     *  
-     */ 
-     
+     *
+     * http://lazylinepainter.info
+     * Copyright 2013, Cam O'Connell
+     *
+     */
+
     var pathObj0 = {
         "_6svg": {
             "strokepath": [
@@ -223,7 +260,7 @@ $(document).ready(function() {
             }
         }
     };
-    var pathObj1 = {    
+    var pathObj1 = {
         "_5svg": {
             "strokepath": [
                 {
@@ -241,7 +278,7 @@ $(document).ready(function() {
             }
         }
     };
-   var pathObj2 = {    
+   var pathObj2 = {
         "_3svg": {
             "strokepath": [
                 {
@@ -259,7 +296,7 @@ $(document).ready(function() {
             }
         }
     };
-    var pathObj3 = {   
+    var pathObj3 = {
          "_1svg": {
              "strokepath": [
                  {
@@ -278,7 +315,7 @@ $(document).ready(function() {
          }
     };
     var pathObj4 = {
-     
+
         "_4svg": {
              "strokepath": [
                  {
@@ -313,7 +350,7 @@ $(document).ready(function() {
                 "height": 181
             }
         }
-    }; 
+    };
     var pathObj6 = {
         "scroller": {
             "strokepath": [
@@ -328,10 +365,10 @@ $(document).ready(function() {
             }
         }
     };
-    
-    
+
+
     $("#_6svg").lazylinepainter({
-        
+
         "svgData": pathObj0,
         "strokeWidth": 3,
         "strokeColor": "#fff",
@@ -340,15 +377,15 @@ $(document).ready(function() {
                             //I'm ensuring that the stroke of the icon will change to the same color as the defined in CSS hover rule
                             $("#_6svg svg path").eq(0).attr("stroke", "#9e459a");
                         });
-                         $("#_6svg").on("mouseout", function(){ 
+                         $("#_6svg").on("mouseout", function(){
                             $("#_6svg svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
-                        });  
-                       
+                        });
+
                    }
         }).lazylinepainter('paint');
-    
+
     $("#_5svg").lazylinepainter({
-        
+
         "svgData": pathObj1,
         "strokeWidth": 3,
         "strokeColor": "#fff",
@@ -360,13 +397,13 @@ $(document).ready(function() {
                         });
                         $("#_5svg").on("mouseout", function(){
                             $("#_5svg svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
-                        });  
-                       
+                        });
+
                    }
         }).lazylinepainter('paint');
-    
+
     $("#_3svg").lazylinepainter({
-        
+
         "svgData": pathObj2,
         "strokeWidth": 3,
         "strokeColor": "#fff",
@@ -378,13 +415,13 @@ $(document).ready(function() {
                         });
                         $("#_3svg").on("mouseout", function(){
                             $("#_3svg svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
-                        });  
-                       
+                        });
+
                    }
         }).lazylinepainter('paint');
-    
+
      $("#_1svg").lazylinepainter({
-        
+
         "svgData": pathObj3,
         "strokeWidth": 3,
         "strokeColor": "#fff",
@@ -396,13 +433,13 @@ $(document).ready(function() {
                         });
                         $("#_1svg").on("mouseout", function(){
                             $("#_1svg svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
-                        });  
-                       
+                        });
+
                    }
         }).lazylinepainter('paint');
-    
+
     $("#_4svg").lazylinepainter({
-        
+
         "svgData": pathObj4,
         "strokeWidth": 3,
         "strokeColor": "#fff",
@@ -414,13 +451,13 @@ $(document).ready(function() {
                         });
                         $("#_4svg").on("mouseout", function(){
                             $("#_4svg svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
-                        });  
-                       
+                        });
+
                    }
         }).lazylinepainter('paint');
-    
+
     $("#_2svg").lazylinepainter({
-        
+
         "svgData": pathObj5,
         "strokeWidth": 3,
         "strokeColor": "#fff",
@@ -432,13 +469,13 @@ $(document).ready(function() {
                         });
                         $("#_2svg").on("mouseout", function(){
                             $("#_2svg svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
-                        });  
-                       
+                        });
+
                    }
-        }).lazylinepainter('paint'); 
-    
+        }).lazylinepainter('paint');
+
     $("#scroller").lazylinepainter({
-        
+
         "svgData": pathObj6,
         "strokeWidth": 3,
         "strokeColor": "#fff",
@@ -450,13 +487,13 @@ $(document).ready(function() {
                         });
                         $("#scroller").on("mouseout", function(){
                             $("#scroller svg path").eq(0).attr("stroke", "#fff"); //Going back to the original white stroke color on mouseleave
-                        });  
-                       
+                        });
+
                    }
         }).lazylinepainter('paint');
-    
+
     //Creating carousel
-    
+
     $(".carousel").each(function() {              // Dla każdej grupy slajdów.
         var $this   = $(this);                    // Pobranie bieżącej grupy slajdów.
         var $group  = $this.find(".carousel_slide_group"); // Pobranie elementu o klasie slide-group (kontener).
@@ -464,20 +501,20 @@ $(document).ready(function() {
         var carouselControls = $(".carousel_selector"); // kontrolki
         var currentIndex = 0;                     // Numer indeksu bieżącego slajdu.
         var timeout;                              // Zmienna do przechowywania licznika czasu.
-      
+
         function move(newIndex) {          // Przejście ze starego do nowego slajdu.
             var animateLeft, slideLeft;      // Deklaracja zmiennych.
-        
+
             advance();                       // Podczas przejścia slajdów należy ponownie wywołać funkcję advance().
-        
+
             // Jeżeli wyświetlany jest bieżący slajd lub odtwarzana jest animacja slajdu, to nie podejmujemy żadnych działań.
-            if ($group.is(':animated') || currentIndex === newIndex) {  
+            if ($group.is(':animated') || currentIndex === newIndex) {
               return;
             }
-        
+
             $(carouselControls[currentIndex]).removeClass("active_btn"); // Usunięcie klasy z elementu.
             $(carouselControls[newIndex]).addClass("active_btn");        // Dodanie klasy do nowego elementu.
-        
+
             if (newIndex > currentIndex) {   // Jeżeli nowy element > bieżący.
                 slideLeft = '100%';            // Umieszczenie nowego slajdu po prawej stronie.
                 animateLeft = '-100%';         // Animacja bieżącej grupy w lewą stronę.
@@ -487,15 +524,15 @@ $(document).ready(function() {
             }
             // Umieszczenie nowego slajdu po lewej (jeśli ma mniejszą wartość indeksu niż bieżący) lub prawej (jeśli ma tę wartość większą).
             $slides.eq(newIndex).css( {left: slideLeft, display: 'block'} );
-        
+
             $group.animate( {left: animateLeft}, function() {    // Animacja slajdu
-              $slides.eq(currentIndex).css( {display: 'none'} ); // i ukrycie poprzedniego.     
+              $slides.eq(currentIndex).css( {display: 'none'} ); // i ukrycie poprzedniego.
               $slides.eq(newIndex).css( {left: 0} ); // Ustawienie położenia dla nowego slajdu.
               $group.css( {left: 0} );               // Ustawienie położenia grupy slajdów.
               currentIndex = newIndex;               // Ustawienie zmiennej currentIndex wartości nowego obrazu.
             });
         }
-      
+
         function advance() {                     // Ustawienie czasu wyświetlania slajdu.
           clearTimeout(timeout);                 // Wyzerowanie licznika czasu w zmiennej timeout.
           timeout = setTimeout(function() {      // Ustawienie nowego licznika.
@@ -506,7 +543,7 @@ $(document).ready(function() {
               }
           }, 4000);                              // Czas oczekiwania wyrażony w milisekundach
         }
-      
+
         $.each(carouselControls, function(index) {
             if (index === currentIndex) {
                 $(this).addClass("active_btn");
@@ -514,13 +551,13 @@ $(document).ready(function() {
             $(this).on("click", function() {
                 move(index);
             });
-            
+
         });
-      
+
         advance();                          // Skrypt jest już skonfigurowany, można wywołać funkcję advance().
-      
+
 
     });
-    
 
-});    
+
+});

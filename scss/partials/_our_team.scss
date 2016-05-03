@@ -25,7 +25,7 @@
             margin: 0 auto;
            /* &:hover {
                 opacity: 0.7;
-                filter: alpha(opacity=70);  For IE8 and earlier 
+                filter: alpha(opacity=70);  For IE8 and earlier
             }*/
         }
         .person_name {
@@ -55,7 +55,7 @@
                         stroke-linejoin: round;
                         stroke-width: 1px;
                     }
-            
+
                     .cls-2 {
                         font-size: 16px;
                         fill: #222;
@@ -73,7 +73,7 @@
                         stroke-width: 1px;
                         fill-rule: evenodd;
                      }
-            
+
                     .cls-2 {
                         font-size: 16px;
                         fill: #222;
@@ -83,7 +83,7 @@
                     }
                 }
             }
-                        
+
         }
         .slide_viewer {
             position: relative; /* needed for IE7 */
@@ -102,9 +102,9 @@
             height: 100%;
             display: none;
             position: absolute;
-            &:first-child {
+            /*&:first-child {
                 display: block;
-            }
+            }*/
         }
         .slide_1 {
             .person_image {
@@ -121,7 +121,7 @@
             &:hover {
                     opacity: 0.7;
                     filter: alpha(opacity=70); /* For IE8 and earlier */
-                }    
+                }
             }
         }
         .slide_3 {
@@ -129,11 +129,11 @@
             background-image: url("../images/cat.png");
            /* background-repeat: no-repeat;
             background-position: center center;
-            background-size: cover; */   
+            background-size: cover; */
             &:hover {
                     opacity: 0.7;
                     filter: alpha(opacity=70); /* For IE8 and earlier */
-                }    
+                }
             }
         }
     }

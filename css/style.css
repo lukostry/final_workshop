@@ -45,7 +45,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 6, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
+/* line 6, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -69,187 +69,187 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 28, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
+/* line 28, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 32, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
+/* line 32, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 35, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
+/* line 35, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 38, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
+/* line 38, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 41, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
+/* line 41, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 46, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
+/* line 46, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 3, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 3, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 7, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 7, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 html {
   /*    padding-bottom: (2000 / 1100) * 100%;
     background-size: contain;
     background-repeat: no-repeat;*/
 }
 
-/* line 21, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 21, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 body {
   font-family: 'latolight', Arial, sans-serif;
   font-size: 16px;
 }
 
-/* line 26, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 26, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 h1 {
   font-size: 4rem;
 }
 
-/* line 30, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 30, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 h2 {
   font-size: 2.5rem;
 }
 
-/* line 33, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 33, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 h6 {
   font-size: 1.2rem;
 }
 
-/* line 36, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 36, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 h5 {
   font-size: 1.5rem;
 }
 
-/* line 39, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 39, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 p {
   font-size: 1rem;
 }
 
-/* line 42, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 42, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .kara {
   color: #a0639e;
 }
 
-/* line 46, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 46, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-/* line 50, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 50, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row {
   text-align: center;
 }
 
-/* line 52, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 52, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row:before, .grid_container .row:after {
   content: " ";
   display: table;
   clear: both;
 }
 
-/* line 57, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 57, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row [class*="col_"] {
   min-height: 1px;
   float: left;
   padding: 0 1em;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 65, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row .col_1 {
   width: 8.33333%;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 65, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row .col_2 {
   width: 16.66667%;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 65, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row .col_3 {
   width: 25%;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 65, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row .col_4 {
   width: 33.33333%;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 65, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row .col_5 {
   width: 41.66667%;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 65, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row .col_6 {
   width: 50%;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 65, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row .col_7 {
   width: 58.33333%;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 65, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row .col_8 {
   width: 66.66667%;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 65, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row .col_9 {
   width: 75%;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 65, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row .col_10 {
   width: 83.33333%;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 65, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row .col_11 {
   width: 91.66667%;
 }
 
-/* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 65, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .grid_container .row .col_12 {
   width: 100%;
 }
 
-/* line 72, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 72, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .text_container {
   position: relative;
   margin: 0 auto;
   display: inline-block;
 }
 
-/* line 76, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 76, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .text_container h2 {
   margin: 1.2em 0;
 }
 
-/* line 79, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 79, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .text_container h2::before {
   position: absolute;
   top: 2em;
@@ -262,7 +262,7 @@ p {
   border-left: 1px solid #c186be;
 }
 
-/* line 90, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
+/* line 90, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_base.scss */
 .text_container h2::after {
   position: absolute;
   bottom: 2em;
@@ -275,7 +275,7 @@ p {
   border-right: 1px solid #c186be;
 }
 
-/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 1, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header {
   height: 600px;
   padding-top: 2.5em;
@@ -289,7 +289,7 @@ header {
   background-size: cover;
 }
 
-/* line 14, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 14, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header .greet_message {
   font-family: 'existencelight', sans-serif;
   margin: 0 auto 1.4em auto;
@@ -298,7 +298,7 @@ header .greet_message {
   justify-content: center;
 }
 
-/* line 23, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 23, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header .sub_message {
   font-family: 'latohairline', sans-serif;
   display: flex;
@@ -308,43 +308,43 @@ header .sub_message {
   margin: 0 0 1.3em 0;
 }
 
-/* line 30, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 30, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header .sub_message h2 {
   color: #ffffff;
   margin: 0 0 0.5em 0;
 }
 
-/* line 34, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 34, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header .sub_message h6 {
   color: #ffffff;
   text-align: center;
 }
 
-/* line 43, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 43, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header svg:hover .cls-1 {
   fill: #9e459a !important;
   fill-opacity: 1 !important;
   stroke: #9e459a !important;
 }
 
-/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 1, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .svg_wrapper {
   margin: 0 auto;
 }
 
-/* line 6, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 6, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 header .svg_wrapper svg {
   width: 100%;
   margin: 0;
 }
 
-/* line 9, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 9, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 header .svg_wrapper svg .cls-1, header .svg_wrapper svg .cls-2, header .svg_wrapper svg .cls-3 {
   fill: #fff;
   /*   fill-opacity: 0; //mine addition*/
 }
 
-/* line 14, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 14, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 header .svg_wrapper svg .cls-1 {
   fill-opacity: 0.1;
   stroke: #fff;
@@ -354,26 +354,26 @@ header .svg_wrapper svg .cls-1 {
   transition: 1s;
 }
 
-/* line 23, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 23, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 header .svg_wrapper svg .cls-1, header .svg_wrapper svg .cls-2 {
   fill-rule: evenodd;
   fill-opacity: 0;
 }
 
-/* line 28, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 28, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 header .svg_wrapper svg .cls-3 {
   font-size: 18px;
   text-anchor: middle;
   /*font-family: Lato;*/
 }
 
-/* line 35, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 35, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 header .svg_wrapper #scroller {
   width: 40%;
   margin: 0;
 }
 
-/* line 38, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 38, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 header .svg_wrapper #scroller .cls-1 {
   fill: #fff;
   fill-opacity: 0.1;
@@ -384,13 +384,13 @@ header .svg_wrapper #scroller .cls-1 {
   transition: 1s;
 }
 
-/* line 51, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 51, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .features .svg_wrapper {
   margin: 0 auto;
   width: 70%;
 }
 
-/* line 54, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 54, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .features .svg_wrapper .cls-1 {
   fill: #fff;
   fill-opacity: 0.1;
@@ -399,23 +399,23 @@ header .svg_wrapper #scroller .cls-1 {
   stroke-width: 4px;
 }
 
-/* line 62, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 62, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .features .svg_wrapper .cls-1, .features .svg_wrapper .cls-2 {
   fill-rule: evenodd;
 }
 
-/* line 66, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 66, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 .features .svg_wrapper .cls-2 {
   fill: #ccd0d2;
 }
 
-/* line 72, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 72, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 #icon_univ .cls-1, #icon_univ .cls-2 {
   fill: #fff;
   fill-rule: evenodd;
 }
 
-/* line 77, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
+/* line 77, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
 #icon_univ .cls-1 {
   fill-opacity: 0.1;
   stroke: #fff;
@@ -423,30 +423,30 @@ header .svg_wrapper #scroller .cls-1 {
   stroke-width: 4px;
 }
 
-/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
+/* line 1, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
 nav {
   background-color: #ffffff;
   padding: 1.2em 0;
 }
 
-/* line 5, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
+/* line 5, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
 nav:before, nav:after {
   content: " ";
   display: table;
   clear: both;
 }
 
-/* line 10, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
+/* line 10, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
 nav .small_logo {
   display: block;
 }
 
-/* line 13, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
+/* line 13, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
 nav .small_logo img {
   width: 100%;
 }
 
-/* line 17, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
+/* line 17, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
 nav .menu_top {
   list-style: none;
   float: right;
@@ -454,7 +454,7 @@ nav .menu_top {
   padding: 0.4em 0 0 0;
 }
 
-/* line 22, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
+/* line 22, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
 nav .menu_top li {
   display: inline-block;
   margin: 0 .5em;
@@ -462,18 +462,18 @@ nav .menu_top li {
   color: #676767;
 }
 
-/* line 27, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
+/* line 27, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
 nav .menu_top li:first-child {
   margin: 0 0.5em 0 0;
 }
 
-/* line 33, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
+/* line 33, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
 nav .menu_top li a {
   text-decoration: none;
   color: #676767;
 }
 
-/* line 41, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
+/* line 41, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_navbar.scss */
 .sticky {
   position: fixed;
   z-index: 900;
@@ -484,52 +484,52 @@ nav .menu_top li a {
   box-shadow: 0 0 2px #DDDDDD;
 }
 
-/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
+/* line 1, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
 .features {
   background-color: #eeeeee;
   color: #676767;
   padding: 3em 0 4.5em 0;
 }
 
-/* line 5, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
+/* line 5, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
 .features .feature_header {
   margin: 1.2em 0;
 }
 
-/* line 8, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
+/* line 8, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
 .features p {
   line-height: 1.5em;
 }
 
-/* line 13, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
+/* line 13, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
 .features svg:hover .cls-1 {
   stroke: #9e459a !important;
 }
 
-/* line 16, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
+/* line 16, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_features.scss */
 .features svg:hover .cls-2 {
   fill: #9e459a !important;
 }
 
-/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
+/* line 1, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
 .about {
   background-color: #ffffff;
   padding: 3em 0 4.5em 0;
 }
 
-/* line 6, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
+/* line 6, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
 .about img {
   width: 100%;
 }
 
-/* line 9, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
+/* line 9, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
 .about p {
   line-height: 1.5em;
   text-align: left;
   margin: 1.5em 0 6.8em 0;
 }
 
-/* line 14, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
+/* line 14, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
 .about a {
   display: block;
   background-color: #9f449b;
@@ -542,12 +542,12 @@ nav .menu_top li a {
   box-shadow: 0 3px #6b2e68;
 }
 
-/* line 25, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
+/* line 25, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_aboutus.scss */
 .about .text_container {
   font-family: 'existencelight', sans-serif;
 }
 
-/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_intermediate.scss */
+/* line 1, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_intermediate.scss */
 .intermediate {
   background-image: url("../images/inter_layer.png");
   background-repeat: no-repeat;
@@ -561,24 +561,24 @@ nav .menu_top li a {
   padding-top: 3em;
 }
 
-/* line 13, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_intermediate.scss */
+/* line 13, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_intermediate.scss */
 .intermediate .class_with_text {
   font-size: 1rem;
 }
 
-/* line 15, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_intermediate.scss */
+/* line 15, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_intermediate.scss */
 .intermediate .class_with_text .svg_wrapper {
   width: 12.5%;
 }
 
-/* line 18, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_intermediate.scss */
+/* line 18, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_intermediate.scss */
 .intermediate .class_with_text h1 {
   font-size: 2em;
   color: #ffffff;
   padding: 1em 5em 0 5em;
 }
 
-/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 1, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team {
   background-color: #ffffff;
   height: 600px;
@@ -586,28 +586,28 @@ nav .menu_top li a {
   padding-bottom: 3em;
 }
 
-/* line 6, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 6, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .text_container {
   font-family: 'existencelight', sans-serif;
 }
 
-/* line 9, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 9, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .controls_container {
   margin: 4em auto 4em auto;
   width: 25%;
 }
 
-/* line 13, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 13, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .controls {
   display: inline-block;
 }
 
-/* line 15, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 15, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .controls img {
   width: 2.5em;
 }
 
-/* line 20, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 20, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .person_image {
   border-radius: 50%;
   width: 8em;
@@ -616,28 +616,28 @@ nav .menu_top li a {
   margin: 0 auto;
   /* &:hover {
                 opacity: 0.7;
-                filter: alpha(opacity=70);  For IE8 and earlier 
+                filter: alpha(opacity=70);  For IE8 and earlier
             }*/
 }
 
-/* line 31, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 31, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .person_name {
   font-size: 1.5em;
   font-weight: bold;
   margin: 1.25em 0 0.5em 0;
 }
 
-/* line 36, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 36, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .person_position {
   font-size: 1em;
 }
 
-/* line 39, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 39, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container {
   margin: 0.6em auto 0 auto;
 }
 
-/* line 42, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 42, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container .social_icon_wrapper {
   display: inline-block;
   width: 1.7em;
@@ -645,12 +645,12 @@ nav .menu_top li a {
   margin: 0 0;
 }
 
-/* line 47, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 47, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container .social_icon_wrapper svg {
   width: 100%;
 }
 
-/* line 51, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 51, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container .social_icon_wrapper #google_icon .cls-1 {
   fill: #dadada;
   fill-opacity: 0;
@@ -659,7 +659,7 @@ nav .menu_top li a {
   stroke-width: 1px;
 }
 
-/* line 59, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 59, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container .social_icon_wrapper #google_icon .cls-2 {
   font-size: 16px;
   fill: #222;
@@ -668,7 +668,7 @@ nav .menu_top li a {
   font-weight: 300;
 }
 
-/* line 68, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 68, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container .social_icon_wrapper #facebook_icon .cls-1 {
   fill: #dadada;
   fill-opacity: 0;
@@ -678,7 +678,7 @@ nav .menu_top li a {
   fill-rule: evenodd;
 }
 
-/* line 77, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 77, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .social_icons_container .social_icon_wrapper #facebook_icon .cls-2 {
   font-size: 16px;
   fill: #222;
@@ -687,7 +687,7 @@ nav .menu_top li a {
   font-weight: 300;
 }
 
-/* line 88, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 88, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_viewer {
   position: relative;
   /* needed for IE7 */
@@ -695,51 +695,49 @@ nav .menu_top li a {
   height: 18em;
 }
 
-/* line 94, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 94, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_group {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-/* line 100, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 100, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide {
   width: 100%;
   height: 100%;
   display: none;
   position: absolute;
+  /*&:first-child {
+                display: block;
+            }*/
 }
 
-/* line 105, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
-.our_team .members .slide:first-child {
-  display: block;
-}
-
-/* line 110, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 110, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_1 .person_image {
   background-image: url("../images/wiola.png");
 }
 
-/* line 112, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 112, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_1 .person_image:hover {
   opacity: 0.7;
   filter: alpha(opacity=70);
   /* For IE8 and earlier */
 }
 
-/* line 119, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 119, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_2 .person_image {
   background-image: url("../images/me2.png");
 }
 
-/* line 121, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 121, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_2 .person_image:hover {
   opacity: 0.7;
   filter: alpha(opacity=70);
   /* For IE8 and earlier */
 }
 
-/* line 128, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 128, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_3 .person_image {
   background-image: url("../images/cat.png");
   /* background-repeat: no-repeat;
@@ -747,30 +745,30 @@ nav .menu_top li a {
             background-size: cover; */
 }
 
-/* line 133, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
+/* line 133, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_team.scss */
 .our_team .members .slide_3 .person_image:hover {
   opacity: 0.7;
   filter: alpha(opacity=70);
   /* For IE8 and earlier */
 }
 
-/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
+/* line 1, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
 .our_skills {
   background-color: #ffffff;
   padding: 1em 0 5em 0;
 }
 
-/* line 4, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
+/* line 4, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
 .our_skills .skills_header {
   margin-bottom: 6em;
 }
 
-/* line 7, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
+/* line 7, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
 .our_skills .text_container {
   font-family: 'existencelight', sans-serif;
 }
 
-/* line 10, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
+/* line 10, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
 .our_skills .skills_set {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
@@ -778,24 +776,24 @@ nav .menu_top li a {
   font-weight: bold;
 }
 
-/* line 17, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
+/* line 17, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
 .our_skills .skills_left, .our_skills .skills_right {
   text-align: left;
 }
 
-/* line 18, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
+/* line 18, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
 .our_skills .skills_left:before, .our_skills .skills_right:before, .our_skills .skills_left:after, .our_skills .skills_right:after {
   content: " ";
   display: table;
   clear: both;
 }
 
-/* line 24, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
+/* line 24, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
 .our_skills .skills_left .area, .our_skills .skills_right .area {
   float: left;
 }
 
-/* line 28, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
+/* line 28, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
 .our_skills .skills_left .percentage, .our_skills .skills_right .percentage {
   font-size: 1.1em;
   color: #777777;
@@ -803,52 +801,52 @@ nav .menu_top li a {
   font-weight: normal;
 }
 
-/* line 36, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
+/* line 36, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
 .our_skills .skills_left {
   padding: 1em 0 0 5em;
   margin-right: 2em;
 }
 
-/* line 41, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
+/* line 41, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
 .our_skills .skills_right {
   padding: 1em 5em 0 0;
   margin-left: 1em;
 }
 
-/* line 46, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
+/* line 46, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
 .our_skills .main_bell {
   margin: 2.2em 0 1.5em 0;
   height: 0.75rem;
   background-color: #f0f0f0;
 }
 
-/* line 50, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
+/* line 50, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_our_skills.scss */
 .our_skills .main_bell .progress_bell {
   background-color: #9f449b;
   height: 100%;
   width: 0%;
 }
 
-/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 1, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes {
   background-color: #eeeeee;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 3em;
 }
 
-/* line 5, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 5, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes h1 {
   font-size: 3.2rem;
   margin-bottom: 0.1em;
 }
 
-/* line 9, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 9, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes p {
   font-size: 1rem;
   color: #777777;
 }
 
-/* line 13, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 13, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .carousel {
   position: relative;
   /* needed for IE7 */
@@ -858,14 +856,14 @@ nav .menu_top li a {
   height: 8em;
 }
 
-/* line 20, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 20, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .carousel_slide_group {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-/* line 25, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 25, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .person_image {
   border-radius: 50%;
   background-color: #cdcdcd;
@@ -876,60 +874,60 @@ nav .menu_top li a {
   position: absolute;
 }
 
-/* line 33, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 33, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .person_image:first-child {
   display: block;
 }
 
-/* line 37, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 37, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .carousel_slide_1 {
   background-image: url("../images/violet.png");
 }
 
-/* line 40, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 40, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .carousel_slide_2 {
   background-image: url("../images/moi.png");
 }
 
-/* line 43, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 43, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .carousel_slide_3 {
   background-image: url("../images/kamilos.png");
 }
 
-/* line 46, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 46, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .carousel_slide_4 {
   background-image: url("../images/przemsi.png");
 }
 
-/* line 49, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 49, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .carousel_slide_5 {
   background-image: url("../images/maltese.png");
 }
 
-/* line 52, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 52, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .main_quote {
   margin-top: 5em;
 }
 
-/* line 55, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 55, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .quotation {
   color: #4b4b4b;
   text-align: center;
   padding: 0.7em 0;
 }
 
-/* line 59, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 59, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .quotation .author {
   margin: 0 auto;
   color: #777777;
 }
 
-/* line 64, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 64, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .carousel_controls {
   margin: 2em auto;
 }
 
-/* line 67, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 67, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .carousel_selector {
   display: inline-block;
   width: 0.7rem;
@@ -939,38 +937,38 @@ nav .menu_top li a {
   margin: 0em;
 }
 
-/* line 74, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 74, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .carousel_selector:hover {
   cursor: pointer;
 }
 
-/* line 78, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
+/* line 78, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_quotes.scss */
 .quotes .active_btn {
   background-color: #777777;
 }
 
-/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+/* line 1, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
 .portfolio {
   background-color: #ffffff;
   padding-top: 3em;
 }
 
-/* line 4, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+/* line 4, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
 .portfolio .portfolio_header {
   padding-bottom: 3em;
 }
 
-/* line 7, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+/* line 7, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
 .portfolio .text_container {
   font-family: 'existencelight', sans-serif;
 }
 
-/* line 10, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+/* line 10, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
 .portfolio .buttons_group {
   padding-bottom: 1.7em;
 }
 
-/* line 12, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+/* line 12, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
 .portfolio .buttons_group a {
   display: inline-block;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -983,24 +981,24 @@ nav .menu_top li a {
   color: #222222;
 }
 
-/* line 27, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+/* line 27, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
 .portfolio .thumbnails img {
   width: 100%;
 }
 
-/* line 30, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+/* line 30, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
 .portfolio .thumbnails .caption {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0.1em auto 0.7em auto;
 }
 
-/* line 33, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+/* line 33, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
 .portfolio .thumbnails .caption .categories {
   font-size: 0.8em;
   color: #777777;
 }
 
-/* line 39, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
+/* line 39, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_portfolio.scss */
 .portfolio .button_big {
   display: block;
   background-color: #9f449b;
@@ -1014,18 +1012,18 @@ nav .menu_top li a {
   box-shadow: 0 3px #6b2e68;
 }
 
-/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 1, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact {
   background-color: #ffffff;
 }
 
-/* line 3, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 3, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .contact_header {
   margin-bottom: 4em;
   font-family: 'existencelight', sans-serif;
 }
 
-/* line 8, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 8, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .form_block_element {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.1em;
@@ -1036,7 +1034,7 @@ nav .menu_top li a {
   padding-left: 1em;
 }
 
-/* line 2, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/modules/_mixins.scss */
+/* line 2, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/modules/_mixins.scss */
 .contact .form_block_element ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #c9c9c9;
@@ -1044,7 +1042,7 @@ nav .menu_top li a {
   font-family: 'latolight', Arial, sans-serif;
 }
 
-/* line 7, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/modules/_mixins.scss */
+/* line 7, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/modules/_mixins.scss */
 .contact .form_block_element :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #c9c9c9;
@@ -1053,7 +1051,7 @@ nav .menu_top li a {
   font-family: 'latolight', Arial, sans-serif;
 }
 
-/* line 13, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/modules/_mixins.scss */
+/* line 13, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/modules/_mixins.scss */
 .contact .form_block_element ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #c9c9c9;
@@ -1062,7 +1060,7 @@ nav .menu_top li a {
   font-family: 'latolight', Arial, sans-serif;
 }
 
-/* line 19, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/modules/_mixins.scss */
+/* line 19, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/modules/_mixins.scss */
 .contact .form_block_element :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #c9c9c9;
@@ -1070,13 +1068,13 @@ nav .menu_top li a {
   font-family: 'latolight', Arial, sans-serif;
 }
 
-/* line 19, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 19, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .message {
   height: 11em;
   padding-top: 0.8em;
 }
 
-/* line 23, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 23, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .submit {
   font-family: 'latolight', Arial, sans-serif;
   background-color: #9f449b;
@@ -1092,14 +1090,14 @@ nav .menu_top li a {
   box-shadow: 0 3px #6b2e68;
 }
 
-/* line 37, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 37, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_details {
   padding-left: 0.2em;
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 43, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 43, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_description {
   margin-top: 0.4em;
   margin-bottom: 0.8em;
@@ -1107,26 +1105,26 @@ nav .menu_top li a {
   line-height: 1.2em;
 }
 
-/* line 49, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 49, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_address {
   font-weight: bold;
   margin: 1.5em 0;
   line-height: 1.2em;
 }
 
-/* line 54, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 54, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_telephone {
   font-weight: bold;
   padding: 0.2em 0;
 }
 
-/* line 58, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 58, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .social_icons {
   text-align: left;
   padding-top: 2.7em;
 }
 
-/* line 61, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 61, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .social_icons .social_icons_wrap {
   display: inline-block;
   width: 2.9em;
@@ -1134,12 +1132,12 @@ nav .menu_top li a {
   margin-right: 1.2em;
 }
 
-/* line 66, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 66, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .social_icons .social_icons_wrap svg {
   width: 100%;
 }
 
-/* line 68, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 68, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .social_icons .social_icons_wrap svg .cls-1 {
   fill: #cdcdcd;
   fill-opacity: 0;
@@ -1149,7 +1147,7 @@ nav .menu_top li a {
   fill-rule: evenodd;
 }
 
-/* line 77, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
+/* line 77, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .social_icons .social_icons_wrap svg .cls-2 {
   font-size: 36px;
   fill: #222;
@@ -1158,7 +1156,7 @@ nav .menu_top li a {
   font-weight: 300;
 }
 
-/* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_footer.scss */
+/* line 1, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_footer.scss */
 footer {
   background-color: #ffffff;
   padding: 4em 0;
