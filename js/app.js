@@ -166,6 +166,7 @@ $(document).ready(function() {
                 return;
             }
 
+
             var animateLeft, slideLeft;      // Declaring variables responsible for animation
 
             if (visiblePictureIndex <= $slides.length) {
@@ -185,8 +186,8 @@ $(document).ready(function() {
                         allSlidesUpdated.eq(visiblePictureIndex).css( {left: 0} ); // Ustawienie położenia dla nowego slajdu.
                         $group.css( {left: 0} );               // Ustawienie położenia grupy slajdów.
 
-                        $slides.eq(visiblePictureIndex).find(".person_name").removeClass("active_person");
-                        $slides.eq(visiblePictureIndex + 1).find(".person_name").addClass("active_person");
+                        $(allSlidesUpdated).eq(visiblePictureIndex - 1).find(".person_name").removeClass("active_person");
+                        $(allSlidesUpdated).eq(visiblePictureIndex).find(".person_name").addClass("active_person");
                         animateSkills();
 
                         //kluczowy fragment, gdy index osiąga ostatni element, robię przejście do pierwszego elementu, które trwa 0 sekeund
@@ -194,6 +195,9 @@ $(document).ready(function() {
                             visiblePictureIndex = 1;
                             allSlidesUpdated.eq(visiblePictureIndex).css( {left: 0, display: "block"} );
                             allSlidesUpdated.eq($slides.length + 1).css( {display: "none"} );
+
+                            $(allSlidesUpdated).eq($slides.length + 1).find(".person_name").removeClass("active_person");
+                            $(allSlidesUpdated).eq(visiblePictureIndex).find(".person_name").addClass("active_person");
                         }
                 });
 
@@ -228,8 +232,8 @@ $(document).ready(function() {
                         allSlidesUpdated.eq(visiblePictureIndex).css( {left: 0} ); // Ustawienie położenia dla nowego slajdu.
                         $group.css( {left: 0} );               // Ustawienie położenia grupy slajdów.
 
-                        $slides.eq(visiblePictureIndex).find(".person_name").removeClass("active_person");
-                        $slides.eq(visiblePictureIndex + 1).find(".person_name").addClass("active_person");
+                        $(allSlidesUpdated).eq(visiblePictureIndex + 1).find(".person_name").removeClass("active_person");
+                        $(allSlidesUpdated).eq(visiblePictureIndex).find(".person_name").addClass("active_person");
                         animateSkills();
 
                         //kluczowy fragment, gdy index osiąga ostatni element, robię przejście do pierwszego elementu, które trwa 0 sekeund
@@ -237,6 +241,9 @@ $(document).ready(function() {
                             visiblePictureIndex = $slides.length;
                             allSlidesUpdated.eq(visiblePictureIndex).css( {left: 0, display: "block"} );
                             allSlidesUpdated.eq(0).css( {display: "none"} );
+
+                            $(allSlidesUpdated).eq(0).find(".person_name").removeClass("active_person");
+                            $(allSlidesUpdated).eq(visiblePictureIndex).find(".person_name").addClass("active_person");
                         }
                 });
 
