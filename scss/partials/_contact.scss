@@ -1,23 +1,23 @@
 .contact {
     background-color: #ffffff;
     .contact_header {
-        margin-bottom: 4em;
+        margin-bottom: 2em;
         font-family: 'existencelight', sans-serif;
     }
-    
+
     .form_block_element {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 1.1em;
         width: 95%;
-        height: 2.8em;
+        height: 2.5em;
         margin: 0.4em 0 0.4em 14px;
         border: 0.8px solid #777777;
         padding-left: 1em;
         @include inputPlaceholder(#c9c9c9);
-       
+
     }
     .message {
-        height: 11em;
+        height: 10em;
         padding-top: 0.8em;
     }
     .submit {
@@ -25,9 +25,9 @@
         background-color: #9f449b;
         font-size: 1.1rem;
         display: block;
-        padding: 0.7em 0;
+        padding: 0.5em 0;
         margin: 0.4em 0 0.4em 16px;
-        width: 10em;
+        width: 9em;
         text-decoration: none;
         color: #ffffff;
         border: none;
@@ -35,34 +35,34 @@
         box-shadow: 0 3px #6b2e68;
     }
     .company_details {
-        padding-left: 0.2em;
+        // padding-left: 0.2em;
         text-align: left;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        
+
     }
     .company_description {
         margin-top: 0.4em;
         margin-bottom: 0.8em;
         color: #4b4b4b;
-        line-height: 1.2em;    
+        line-height: 1.2em;
     }
     .company_address {
         font-weight: bold;
-        margin: 1.5em 0;
+        margin: 1.2em 0;
         line-height: 1.2em;
     }
     .company_telephone {
         font-weight: bold;
-        padding: 0.2em 0;
+        padding: 0.1em 0;
     }
     .social_icons {
         text-align: left;
-        padding-top: 2.7em;
+        padding-top: 2em;
         .social_icons_wrap {
             display: inline-block;
             width: 2.9em;
             height: 2.9em;
-            margin-right: 1.2em;
+            margin-right: 1em;
             svg {
                 width: 100%;
                 .cls-1 {
@@ -73,7 +73,7 @@
                     stroke-width: 1px;
                     fill-rule: evenodd;
                 }
-    
+
                 .cls-2 {
                   font-size: 36px;
                   fill: #222;

@@ -1004,7 +1004,7 @@ nav .menu_top li a {
   background-color: #9f449b;
   font-size: 1.25rem;
   padding: 0.7em 0;
-  margin: 1.5em auto 4.5em auto;
+  margin: 1.5em auto 2em auto;
   width: 10em;
   text-decoration: none;
   color: #ffffff;
@@ -1019,7 +1019,7 @@ nav .menu_top li a {
 
 /* line 3, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .contact_header {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   font-family: 'existencelight', sans-serif;
 }
 
@@ -1028,7 +1028,7 @@ nav .menu_top li a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.1em;
   width: 95%;
-  height: 2.8em;
+  height: 2.5em;
   margin: 0.4em 0 0.4em 14px;
   border: 0.8px solid #777777;
   padding-left: 1em;
@@ -1070,7 +1070,7 @@ nav .menu_top li a {
 
 /* line 19, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .message {
-  height: 11em;
+  height: 10em;
   padding-top: 0.8em;
 }
 
@@ -1080,9 +1080,9 @@ nav .menu_top li a {
   background-color: #9f449b;
   font-size: 1.1rem;
   display: block;
-  padding: 0.7em 0;
+  padding: 0.5em 0;
   margin: 0.4em 0 0.4em 16px;
-  width: 10em;
+  width: 9em;
   text-decoration: none;
   color: #ffffff;
   border: none;
@@ -1092,7 +1092,6 @@ nav .menu_top li a {
 
 /* line 37, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_details {
-  padding-left: 0.2em;
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -1108,20 +1107,20 @@ nav .menu_top li a {
 /* line 49, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_address {
   font-weight: bold;
-  margin: 1.5em 0;
+  margin: 1.2em 0;
   line-height: 1.2em;
 }
 
 /* line 54, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .company_telephone {
   font-weight: bold;
-  padding: 0.2em 0;
+  padding: 0.1em 0;
 }
 
 /* line 58, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
 .contact .social_icons {
   text-align: left;
-  padding-top: 2.7em;
+  padding-top: 2em;
 }
 
 /* line 61, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */
@@ -1129,7 +1128,7 @@ nav .menu_top li a {
   display: inline-block;
   width: 2.9em;
   height: 2.9em;
-  margin-right: 1.2em;
+  margin-right: 1em;
 }
 
 /* line 66, C:/Users/Komp Ostrego/desktop/Coders_lab/final_workshop/scss/partials/_contact.scss */

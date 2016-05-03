@@ -11,10 +11,24 @@ $(document).ready(function() {
 
         //The following function will animate click on an internal anchor within document
 
-        function scrollToAnchor() {
-            $("html, body").animate ({
-                scrollTop: $(dest).offset().top
-            }, 1000);
+        function scrollToAnchor(link) {
+            var destOffset = $(dest).offset().top;
+            var navHeight = parseInt($("nav").outerHeight(true));
+            if (link.hasClass("near_scroll")) {
+                $("html, body").animate ({
+                    scrollTop: destOffset
+                }, 1000);
+            } else {
+                if (!($("nav").hasClass("sticky"))) {
+                    destOffset = destOffset - (navHeight*1.6);
+                } else {
+                    destOffset = destOffset - navHeight;
+                }
+                $("html, body").animate ({
+                    scrollTop: destOffset
+                }, 1000);
+            }
+
         }
 
         function scrollToAnchorWithCallback() {
@@ -29,7 +43,7 @@ $(document).ready(function() {
         if ($(this).data("team-member")) {
             scrollToAnchorWithCallback();
         } else {
-            scrollToAnchor();
+            scrollToAnchor($(dest));
         }
 
 
@@ -46,10 +60,12 @@ $(document).ready(function() {
 
         if (scrollPosition > menuPosition) {
             navigationBar.addClass("sticky");
+            // $("#features").addClass("near_scroll");
 //            console.log("Pojechaliśmy za daleko");
         } else {
 //            console.log("Wciąż za blisko");
             navigationBar.removeClass("sticky");
+            // $("#features").addClass("near_scroll");
         }
     }
     checkCurrentPosition();
