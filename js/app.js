@@ -582,5 +582,22 @@ $(document).ready(function() {
 
     });
 
+    //Adding bolder text effect in the features section
+    function addingBolderFont() {
+        var svgIcons = $("#features").find("svg");
+        var textToBolded = $("#features").find("p");
+
+        svgIcons.on ("mouseover", function() {
+            var index = $(this).data("name") - 1;
+            textToBolded.eq(index).addClass("bolder");
+        });
+
+        svgIcons.on ("mouseout", function() {
+            var index = $(this).data("name") - 1;
+            textToBolded.eq(index).removeClass("bolder");
+        });
+
+    }
+    addingBolderFont();
 
 });
