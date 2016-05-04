@@ -1,4 +1,8 @@
-#The final workshop - Bhagaskara - created during (and after :) Coder's Lab course - _Become Front-End Developer_
+#The final workshop - Bhagaskara - created during (and after:) Coder's Lab course - _Become Front-End Developer_
+
+###URL:
+
+http://lukostry.github.io/final_workshop/
 
 ###Main features:
 
