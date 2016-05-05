@@ -1,7 +1,7 @@
 header {
     height: 600px;
     padding-top: 2.5em;
-    
+
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -10,16 +10,16 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     .greet_message {
         font-family: 'existencelight', sans-serif;
         margin: 0 auto 1.4em auto;
         color: #ffffff;
         display: flex;
         justify-content: center;
-        
+
     }
-    
+
     .sub_message {
         font-family: 'latohairline', sans-serif;
         display: flex;
@@ -30,6 +30,7 @@ header {
         h2 {
             color: #ffffff;
             margin: 0 0 0.5em 0;
+            text-align: center;
         }
         h6 {
             color: #ffffff;
@@ -37,15 +38,55 @@ header {
         }
     }
     svg {
-        
+
         &:hover {
 //            background-color: azure;
             .cls-1 {
-                
+
                 fill: #9e459a !important;
                 fill-opacity: 1 !important;
                 stroke: #9e459a !important;
              }
+        }
+    }
+    .mobile_nav_toggle {
+        position: absolute;
+        top: 2em;
+        left: 1.5em;
+        width: 30px;
+        height: 30px;
+        // border: 1px solid red;
+        cursor: pointer;
+        display: none;
+        span {
+            cursor: pointer;
+            display: block;
+            background-color: white;
+            position: absolute;
+            top: 50%;
+            width: 28px;
+            height: 3px;
+            border-radius: 3px;
+            &::after {
+                display: block;
+                content: " ";
+                background-color: white;
+                width: 28px;
+                height: 3px;
+                border-radius: 3px;
+                position: absolute;
+                top: 7px;
+            }
+            &::before {
+                display: block;
+                content: " ";
+                background-color: white;
+                width: 28px;
+                height: 3px;
+                border-radius: 3px;
+                position: absolute;
+                top: -7px;
+            }
         }
     }
 }

@@ -588,7 +588,7 @@ $(document).ready(function() {
         var textToBolded = $("#features").find("p");
 
         svgIcons.on ("mouseover", function() {
-            var index = $(this).data("name") - 1;
+            var index = $(this).data("name") - 1; //I'm taking advantage of data-name attribute to bind svg with the right <p> elment
             textToBolded.eq(index).addClass("bolder");
         });
 
