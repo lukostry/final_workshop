@@ -277,7 +277,7 @@ p {
 
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header {
-  height: 97vh;
+  height: 98vh;
   max-height: 1100px;
   padding-top: 2.5em;
   background-image: url("../images/background.jpg");
@@ -331,28 +331,28 @@ header svg:hover .cls-1 {
 
 /* line 54, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header .mobile_nav_toggle {
-  position: absolute;
-  top: 2em;
-  left: 1.5em;
-  width: 30px;
+  padding-top: 1em;
+  /*change*/
+  padding-left: 1.5em;
+  min-width: 100%;
   height: 30px;
   cursor: pointer;
   display: none;
 }
 
-/* line 63, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 61, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header .mobile_nav_toggle span {
   cursor: pointer;
   display: block;
   background-color: white;
   position: absolute;
-  top: 50%;
+  top: 22px;
   width: 28px;
   height: 3px;
   border-radius: 3px;
 }
 
-/* line 72, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 70, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header .mobile_nav_toggle span::after {
   display: block;
   content: " ";
@@ -364,7 +364,7 @@ header .mobile_nav_toggle span::after {
   top: 7px;
 }
 
-/* line 82, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+/* line 80, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
 header .mobile_nav_toggle span::before {
   display: block;
   content: " ";
@@ -374,6 +374,31 @@ header .mobile_nav_toggle span::before {
   border-radius: 3px;
   position: absolute;
   top: -7px;
+}
+
+/* line 92, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+header .mobile_nav {
+  margin: 0.8em 0;
+  min-width: 100%;
+  background-color: rgba(171, 171, 171, 0.83);
+  padding: 0 1.5em;
+  display: none;
+}
+
+/* line 98, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+header .mobile_nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 103, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+header .mobile_nav_columm {
+  width: 50%;
+}
+
+/* line 106, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_header.scss */
+header .mobile_nav_menu_item {
+  padding: 0.3em 0;
 }
 
 /* line 1, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_svg_wrappers.scss */
@@ -1232,11 +1257,16 @@ footer {
   }
   /* line 16, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   header {
-    padding-top: 7em;
+    padding-top: 0em;
+    height: 95vh;
   }
-  /* line 18, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 19, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   header .svg_wrapper {
     display: none;
+  }
+  /* line 22, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  header .greet_message {
+    margin: 3.4em auto 2em auto;
   }
 }
 

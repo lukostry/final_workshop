@@ -14,9 +14,13 @@
         font-size: 3.7rem;
     }
     header {
-        padding-top: 7em;
+        padding-top: 0em;
+        height: 95vh;
         .svg_wrapper {
             display: none;
+        }
+        .greet_message {
+            margin: 3.4em auto 2em auto;
         }
     }
   }
