@@ -23,7 +23,7 @@
             margin: 3.4em auto 2em auto;
         }
     }
-    nav .row {
+    nav {
         display: none;
     }
     .row .mobi_expanded {
@@ -33,14 +33,65 @@
     .row .collapse {
         display: none;
     }
+    .about {
+        padding: 0em 0 1.5em 0;
+        img {
+            width: 85%;
+        }
+        p {
+            width: 95%;
+            margin: 1.5em auto 1em auto;
+            line-height: 1.2em;
+        }
+        a {
+            font-size: 1.1rem;
+            margin: auto;
+            padding: 0.6em 0em;
+            width: 7em;
+            box-shadow: 0 2px #6b2e68;
+        }
+    }
     .intermediate .class_with_text h1 {
         padding: 1em 1em 0 1em;
     }
-    .our_team .controls_container  {
-        width: 50%;
+    .our_team {
+        padding-top: 1em;
+        padding-bottom: 0;
+        height: auto;
+        .controls_container  {
+            width: 50%;
+            margin: 0.2em auto 1.5em auto;
+        }
+        h2 {
+            margin: 1em 0;
+        }
+        .person_name {
+            margin: 0.5em 0 !important;
+        }
+        .slide_viewer {
+            height: 16em !important;
+        }
     }
-    .quotes h1 {
-        font-size: 2rem;
+    .our_skills {
+        padding: 0em 0 3em 0;
+    }
+    .quotes {
+        padding-top: 1.2em;
+        h1 {
+            font-size: 1.7rem;
+        }
+        .main_quote {
+            margin-top: 2em;
+        }
+        .carousel_controls {
+            margin: 1em auto;
+        }
+    }
+    .portfolio {
+        padding-top: 0;
+        .portfolio_header {
+            padding-bottom: 1.5em;
+        }
     }
     .grid_container .row [class*="col_"] {
         padding: 0 0.2em;
@@ -64,6 +115,9 @@
     }
     h2 {
       font-size: 2rem;
+    }
+    h5 {
+        font-size: 1.3rem;
     }
     h6 {
         font-size: 1.1rem;

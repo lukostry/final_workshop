@@ -18,7 +18,13 @@ $(document).ready(function() {
                 $("html, body").animate ({
                     scrollTop: destOffset
                 }, 1000);
-            } else {
+            } else if (link.hasClass("adjusted_scroll")) {
+                // destOffset = destOffset + 179;
+                $("html, body").animate ({
+                    scrollTop: destOffset
+                }, 1000);
+            }
+            else {
                 if (!($("nav").hasClass("sticky"))) {
                     destOffset = destOffset - (navHeight*1.6);
                 } else {
@@ -606,12 +612,38 @@ $(document).ready(function() {
         var mobiButton = $(".mobile_nav_toggle");
         var mobiMenu = $(".mobile_nav");
         var header = $("header");
+        var nameOfCompany = $(".greet_message");
 
         mobiButton.on("click", function() {
             mobiMenu.toggle();
-            header.css( {height: "100vh"} );
+            if ((mobiMenu.css("display") === "block")) {
+                header.css( {height: "100vh"} );
+                nameOfCompany.css ( {marginTop: "0.4em"} );
+            } else {
+                header.css( {height: "95vh"} );
+                nameOfCompany.css ( {margin: "3.4em auto 2em auto"} );
+            }
         });
     }
     toggleMobileMenu();
+
+    //Changing the smooth scroll for small screens
+    function matchMediaWithListener(){
+
+        var mq = window.matchMedia("(max-width: 767px)");
+        mq.addListener(WidthChange);
+        WidthChange(mq);
+
+        // media query change
+
+        function WidthChange(mediaQuery) {
+
+            if(mediaQuery.matches) {
+                $(".internal_dest").addClass("adjusted_scroll");
+            }
+        }
+    }
+
+    matchMediaWithListener();
 
 });

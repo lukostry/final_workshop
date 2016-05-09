@@ -1269,7 +1269,7 @@ footer {
     margin: 3.4em auto 2em auto;
   }
   /* line 26, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
-  nav .row {
+  nav {
     display: none;
   }
   /* line 29, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
@@ -1282,78 +1282,147 @@ footer {
     display: none;
   }
   /* line 36, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .about {
+    padding: 0em 0 1.5em 0;
+  }
+  /* line 38, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .about img {
+    width: 85%;
+  }
+  /* line 41, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .about p {
+    width: 95%;
+    margin: 1.5em auto 1em auto;
+    line-height: 1.2em;
+  }
+  /* line 46, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .about a {
+    font-size: 1.1rem;
+    margin: auto;
+    padding: 0.6em 0em;
+    width: 7em;
+    box-shadow: 0 2px #6b2e68;
+  }
+  /* line 54, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .intermediate .class_with_text h1 {
     padding: 1em 1em 0 1em;
   }
-  /* line 39, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 57, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .our_team {
+    padding-top: 1em;
+    padding-bottom: 0;
+    height: auto;
+  }
+  /* line 61, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .our_team .controls_container {
     width: 50%;
+    margin: 0.2em auto 1.5em auto;
   }
-  /* line 42, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .our_team h2 {
+    margin: 1em 0;
+  }
+  /* line 68, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .our_team .person_name {
+    margin: 0.5em 0 !important;
+  }
+  /* line 71, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .our_team .slide_viewer {
+    height: 16em !important;
+  }
+  /* line 75, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .our_skills {
+    padding: 0em 0 3em 0;
+  }
+  /* line 78, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .quotes {
+    padding-top: 1.2em;
+  }
+  /* line 80, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .quotes h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
-  /* line 45, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 83, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .quotes .main_quote {
+    margin-top: 2em;
+  }
+  /* line 86, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .quotes .carousel_controls {
+    margin: 1em auto;
+  }
+  /* line 90, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .portfolio {
+    padding-top: 0;
+  }
+  /* line 92, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  .portfolio .portfolio_header {
+    padding-bottom: 1.5em;
+  }
+  /* line 96, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .grid_container .row [class*="col_"] {
     padding: 0 0.2em;
   }
-  /* line 48, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 99, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .contact .form_block_element {
     margin: 0.4em 0 0.4em 0px;
   }
-  /* line 51, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 102, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .contact .submit {
     margin: 0.4em 0 0.4em 10px;
   }
-  /* line 54, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 105, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .contact .company_description {
     margin-top: 3em;
     font-size: 0.9rem;
     text-align: center;
   }
-  /* line 59, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 110, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .contact .company_details {
     text-align: center;
   }
-  /* line 62, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 113, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .contact .social_icons {
     text-align: center;
   }
-  /* line 65, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 116, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   h2 {
     font-size: 2rem;
   }
-  /* line 68, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 119, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  h5 {
+    font-size: 1.3rem;
+  }
+  /* line 122, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   h6 {
     font-size: 1.1rem;
   }
-  /* line 71, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 125, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .portfolio .buttons_group a {
     padding: 0.5em 0.7em;
   }
-  /* line 74, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 128, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   header .sub_message h6 {
     padding-top: 2em;
   }
-  /* line 77, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 131, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .our_skills .skills_header {
     margin-bottom: 3em;
   }
-  /* line 80, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 134, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .our_skills .skills_left, .our_skills .skills_right {
     padding: 0;
     text-align: center;
     margin: 0 2em;
   }
-  /* line 85, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 139, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .skills_right *, .skills_left * {
     float: none !important;
   }
-  /* line 88, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 142, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .percentage {
     margin: 0.8em 0;
   }
-  /* line 91, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
+  /* line 145, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .main_bell {
     display: none;
   }
