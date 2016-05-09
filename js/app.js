@@ -600,4 +600,18 @@ $(document).ready(function() {
     }
     addingBolderFont();
 
+    //toggling mobile nav menu
+
+    function toggleMobileMenu() {
+        var mobiButton = $(".mobile_nav_toggle");
+        var mobiMenu = $(".mobile_nav");
+        var header = $("header");
+
+        mobiButton.on("click", function() {
+            mobiMenu.toggle();
+            header.css( {height: "100vh"} );
+        });
+    }
+    toggleMobileMenu();
+
 });
