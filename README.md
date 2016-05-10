@@ -12,9 +12,10 @@ http://lukostry.github.io/final_workshop/
 - carousel
 - smooth scroll
 - support for:
-  * smartphones [x]
-  * laptops [x]
-  * large screens [x]
+  * [x] smartphones
+  * [x] laptops
+  * [x] large screens
+  * [ ] tablets (coming soon)
 
 ###Technologies used:
 
