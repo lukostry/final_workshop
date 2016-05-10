@@ -11,7 +11,10 @@ http://lukostry.github.io/final_workshop/
 - infinite slider
 - carousel
 - smooth scroll
-- [ ] full support for tablets and smartphones (coming soon)
+- support for:
+  * smartphones [x]
+  * laptops [x]
+  * large screens [x]
 
 ###Technologies used:
 
