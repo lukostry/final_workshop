@@ -1429,7 +1429,7 @@ footer {
 }
 
 /* Large screens */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
   /* line 153, C:/Users/Komp Ostrego/Desktop/Coders_lab/final_workshop/scss/partials/_mediaqueries.scss */
   .grid_container {
     max-width: 1100px;
